@@ -20,7 +20,7 @@
         <div class="col-md-12">
             <section class="panel">
                 <header class="panel-heading">
-                    <center><asp:label runat="server" Text="<%$Resources:Resource, OffsetSpecEntryForm %>"></asp:label></center>
+                    <center><asp:label runat="server" Text="Approval Borad"></asp:label></center>
                     <span class="tools pull-right">
                         <a href="javascript:;" class="fa fa-chevron-down"></a>
                     </span>
