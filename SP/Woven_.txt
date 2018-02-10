@@ -1,0 +1,11 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Woven_`(IN _Status int, in _catagoryID int)
+BEGIN
+SELECT B.BrandName,
+A.SampleName,
+A.Length,
+A.Width,
+EmailID   
+FROM npd_woven_spec_tbl A 
+JOIN npd_brand_tbl B ON A.BrandID=B.BrandID
+WHERE A.Status<>255 AND a.ProductCategoryID=_catagoryID AND Status=_Status;
+END

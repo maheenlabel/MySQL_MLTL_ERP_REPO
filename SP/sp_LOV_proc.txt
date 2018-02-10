@@ -1,0 +1,6 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `sp_LOV_proc`(
+Param varchar(50))
+BEGIN
+
+select ListItem,ID from Config_LOV_Tbl where LovType=Param order by ListItem;
+END

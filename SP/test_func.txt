@@ -1,0 +1,11 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `test_func`(IN col1 varchar(100),IN colv varchar(100), OUT res int)
+BEGIN
+
+SET @s=CONCAT('SELECT ',col1,' INTO @res FROM com_userInfo_tbl WHERE LoginID=',colv);
+PREPARE stmt1 FROM @s;
+EXECUTE stmt1;
+DEALLOCATE PREPARE stmt1;
+
+SELECT @res INTO res;
+
+END

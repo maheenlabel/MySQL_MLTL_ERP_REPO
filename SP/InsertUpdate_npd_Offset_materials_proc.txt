@@ -1,0 +1,79 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `InsertUpdate_npd_Offset_materials_proc`(
+in Material_ID int,
+in SampleID int,
+in BoardType int,
+in BoardGSM decimal(18,5),
+in IsFSC int,
+in BoardColor nvarchar(45),
+in AdhesiveColor nvarchar(45),
+in StoreItemID int,
+in Quanity decimal(18,5),
+ in Unit int,
+in MahenCode nvarchar(45),
+in SupplierID int,
+in BatchID int,
+in CreatedBy int,
+in CreationDate datetime,
+in Status int,
+IN CommandID int
+)
+BEGIN
+IF CommandID=1 THEN
+
+INSERT INTO `npd_Offset_materials_tbl`
+(
+SampleID,
+BoardType,
+BoardGSM,
+IsFSC,
+BoardColor,
+AdhesiveColor,
+StoreItemID,
+Quanity,
+Unit,
+MahenCode,
+SupplierID,
+BatchID,
+CreatedBy ,
+CreationDate,
+ Status
+)
+VALUES
+(
+SampleID,
+BoardType,
+BoardGSM,
+IsFSC,
+BoardColor,
+AdhesiveColor,
+StoreItemID,
+Quanity,
+Unit,
+MahenCode,
+SupplierID,
+BatchID,
+CreatedBy ,
+CreationDate,
+ Status);
+ELSE
+UPDATE `npd_Offset_materials_tbl`
+SET
+
+SampleID = SampleID,
+BoardType=BoardType,
+BoardGSM=BoardGSM,
+IsFSC=IsFSC,
+BoardColor=BoardColor,
+AdhesiveColor=AdhesiveColor,
+StoreItemID = StoreItemID,
+Quanity = Quanity,
+Unit= Unit,
+MahenCode= MahenCode,
+SupplierID=SupplierID,
+BatchID=BatchID,
+CreatedBy= CreatedBy,
+CreationDate=CreationDate,
+ Status=Status
+WHERE Offset_Material_ID = Material_ID;
+END IF;
+END

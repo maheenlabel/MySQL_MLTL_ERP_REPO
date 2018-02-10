@@ -1,0 +1,33 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `InsertUpdate_UserTbl_proc`(
+in LoginUserID int,
+in Language_ID int,
+in LoginID nvarchar(50),
+in Password nvarchar(50),
+in UserStatus int,
+IN CommandID int
+)
+BEGIN
+IF CommandID=1 THEN
+INSERT INTO `config_user_tbl`
+(
+`Language_ID`,
+`LoginID`,
+`Password`,
+`UserStatus`)
+VALUES
+(
+Language_ID,
+LoginID,
+Password,
+UserStatus);
+ELSE IF CommandID=2 THEN
+UPDATE `config_user_tbl`
+SET
+`Language_ID` = Language_ID,
+`LoginID` = LoginID,
+`Password` = Password,
+`UserStatus` = UserStatus
+WHERE `UserID` = LoginUserID ;
+END IF;
+END IF;
+END

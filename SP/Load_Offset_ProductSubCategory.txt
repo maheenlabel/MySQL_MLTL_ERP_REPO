@@ -1,0 +1,5 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_Offset_ProductSubCategory`()
+BEGIN
+select ProductSubCategoryID,ProductSubCategoryName
+ from NPD_ProductSubCategory_Tbl where ProductCategoryID=5;
+END

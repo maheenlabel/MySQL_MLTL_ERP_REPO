@@ -1,0 +1,23 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Chack_SampleName_pro`(
+in inSampleName nvarchar(50)
+)
+BEGIN
+
+ IF EXISTS
+	        (
+			    SELECT *
+					FROM npd_pfl_spec_tbl
+					WHERE  SampleName=inSampleName
+					AND Status <> 255
+                    
+			)
+  THEN
+     
+    
+	           SELECT 1 AS pflExists ;
+	    
+       
+	   ELSE
+	           SELECT 0 AS pflExists;
+	END IF;
+END

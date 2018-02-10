@@ -1,0 +1,14 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Search_WorkorderId_wise`(in Workorder_id int)
+BEGIN
+
+select a.WorkOrderID,a.WorkOrderNo,a.DeliveryDate,a.EstDeliverDate,b.Price,b.OrderQty, b.Price*b.OrderQty as value,
+d.SampleName
+ from ORD_WorkOrderMaster_Tbl a 
+join ORD_WorkOrderDetail_Tbl b on a.WorkOrderID=b.WorkOrderID
+join NPD_SampleWise_Parts_Length c on c.PartsID=b.PartsID
+join NPD_SampleGeneralSpec_Tbl d on d.SampleID=c.SampleID
+where a.WorkOrderID= case when(Workorder_id=0) then a.WorkOrderID else Workorder_id end
+and a.StatusID<>255;
+
+
+END

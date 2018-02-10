@@ -1,0 +1,12 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `pd_pfl_dashbroad_load_proc`(in _catagoryID int,IN _Status int )
+BEGIN
+SELECT PFL_spec_ID as ID,SampleID,
+B.BrandName,
+A.SampleName,
+A.Length,
+A.Width,
+EmailID   
+FROM npd_pfl_spec_tbl A 
+JOIN npd_brand_tbl B ON A.BrandID=B.BrandID
+WHERE A.Status<>255 AND a.ProductCategoryID=_catagoryID AND Status=_Status;
+END

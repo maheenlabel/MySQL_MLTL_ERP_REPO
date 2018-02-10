@@ -1,0 +1,21 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_Gridview_Pfl_Material1`(in sample int)
+BEGIN
+select
+ a.Pfl_Material_ID
+,a.SampleID
+,b.SampleName
+,a.StoreItemID
+,c.ItemCode
+,a.Quanity
+,a.Unit
+,d.ListItem
+,a.MahenCode
+ from npd_pfl_materials_tbl a
+join npd_samplegeneralspec_tbl b on a.SampleID = b.SampleID
+join inv_itemmaster_tbl c on c.ItemID=a.StoreItemID
+join config_lov_tbl d on d.ID=a.Unit
+where a.Status<>255 and b.Status<>255
+AND a.SampleID=sample;
+
+
+END

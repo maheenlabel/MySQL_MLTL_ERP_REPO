@@ -1,0 +1,5 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `LoadEmployee`()
+BEGIN
+
+select * from com_employeepersonalinfo_tbl;
+END

@@ -1,0 +1,42 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `pd_Woven_dashbroad_load_proc`(in _catagoryID int,IN _Status int )
+BEGIN
+
+IF _catagoryID=1 THEN
+SELECT a.npd_woven_ID as ID,SampleID,
+B.BrandName,
+A.SampleName,
+A.Length,
+A.Width,
+EmailID ,
+SampleQty,
+a.Status  
+FROM npd_woven_spec_tbl A 
+JOIN npd_brand_tbl B ON A.BrandID=B.BrandID
+WHERE A.Status<>255 AND a.ProductCategoryID=_catagoryID AND a.Status=_Status;
+
+ELSE IF _catagoryID=2 THEN
+SELECT PFL_spec_ID as ID,SampleID,
+B.BrandName,
+A.SampleName,
+A.Length,
+A.Width,
+EmailID,SampleQty,a.Status     
+FROM npd_pfl_spec_tbl A 
+JOIN npd_brand_tbl B ON A.BrandID=B.BrandID
+WHERE A.Status<>255 AND a.ProductCategoryID=_catagoryID AND a.Status=_Status;
+
+ELSE IF _catagoryID=5 THEN
+SELECT Offset_spec_ID as ID, SampleID,
+ B.BrandName,
+A.SampleName,
+A.Length,
+A.Width,
+EmailID , SampleQty,a.Status   
+FROM npd_pfl_spec_tbl A 
+JOIN npd_brand_tbl B ON A.BrandID=B.BrandID
+WHERE A.Status<>255 AND a.ProductCategoryID=_catagoryID AND a.Status=_Status;
+END IF;
+END IF;
+END IF;
+
+END

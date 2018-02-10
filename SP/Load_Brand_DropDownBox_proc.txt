@@ -1,0 +1,4 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_Brand_DropDownBox_proc`()
+BEGIN
+Select BrandID, BrandName from npd_brand_tbl;
+END

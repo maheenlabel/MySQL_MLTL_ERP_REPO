@@ -1,0 +1,4 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `newton`()
+BEGIN
+select * from com_employeepersonalinfo_tbl;
+END

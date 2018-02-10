@@ -1,0 +1,4 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `generatetranno`(in intrantype varchar(50))
+BEGIN
+SELECT concat(tranprefix , '-' , middlepattern , transtart , '-' , transuffix) as GenNo FROM `mltl-erp-latest`.transaction_auto_generator where transType=intrantype; 
+END

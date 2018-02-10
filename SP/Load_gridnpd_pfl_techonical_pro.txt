@@ -1,0 +1,44 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_gridnpd_pfl_techonical_pro`()
+BEGIN
+Select
+PFL_Techonical_ID,
+a.SampleID,
+b.SampleName,
+Overall_Length,
+Overall_Width,
+Finished_Length,
+Finished_Width,
+Fornt_Side_Color,
+Back_Side_Color,
+Ribbon_Type,
+Ribbon_Color,
+Ribbon_Width,
+Edge_Quality,
+Face_Quality,
+Item_Description,
+a.MachineID,
+c.MachineNo,
+FirstHeatPlateTemp,
+SecondHeatPlateTemp,
+MachineSpeed,
+FinishType,
+FoldingType,
+CuringTime,
+CuiringTemparature,
+ItemAttributes,
+KeyEntry1,
+KeyEntry2,
+KeyEntry3,
+KeyEntry4,
+KeyEntry5,
+KeyEntry6,
+KeyEntry7,
+KeyEntry8,
+KeyEntry9,
+KeyEntry10
+ from npd_pfl_techonical_tbl a
+join npd_samplegeneralspec_tbl b on a.SampleID=b.SampleID
+join plan_machinemaster_tbl c on c.MachineID=a.MachineID
+where a.Status<>255;
+
+END

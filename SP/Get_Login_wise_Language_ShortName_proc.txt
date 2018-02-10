@@ -1,0 +1,9 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Get_Login_wise_Language_ShortName_proc`(
+in LogID nvarchar(50),
+in Paword  nvarchar(50)
+)
+BEGIN
+select ShortName from config_user_tbl a
+join config_language_tbl b on a.Language_ID=b.Language_ID
+where LoginID= LogID and Password=Paword;
+END

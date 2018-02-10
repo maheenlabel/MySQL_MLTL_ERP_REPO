@@ -1,0 +1,5 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Retrun_SampleID_proc`(in NewCustomerSampleName nvarchar(60))
+BEGIN
+select SampleID from npd_samplegeneralspec_tbl
+where CustomerSampleName= NewCustomerSampleName;
+END

@@ -1,0 +1,14 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `CheckProductCategoryWise`(in Category varchar(20),in product varchar(100))
+BEGIN
+
+if Category="Woven" then
+select SampleID from npd_woven_spec_tbl where SampleName=product;
+elseif Category="PFL" then
+select SampleID from npd_pfl_spec_tbl where SampleName=product;
+elseif Category="PFL" then
+select SampleID from npd_pfl_spec_tbl where SampleName=product;
+elseif Category="Offset" then
+select SampleID from npd_offset_spec_tbl where SampleName=product;
+ 
+end if;
+END

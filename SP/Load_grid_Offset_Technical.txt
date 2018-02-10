@@ -1,0 +1,33 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_grid_Offset_Technical`()
+BEGIN
+Select
+Offset_Technical_ID,
+a.SampleID,
+b.SampleName,
+Overall_Length,
+Overall_Width,
+Finished_Length,
+Finished_Width,
+Fornt_Side_Color,
+Back_Side_Color,
+case when Cutting_Emboss=0 then 'No' else 'Yes' end  as Cutting_Emboss,
+case when Cutting_Debossing=0 then 'No' else 'Yes' end  as Cutting_Debossing,
+case when Die_Cutting=0 then 'No' else 'Yes' end  as Die_Cutting,
+case when Punch_hole_size=0 then 'No' else 'Yes' end  as Punch_hole_size,
+case when Perforation=0 then 'No' else 'Yes' end  as Perforation,
+
+KeyEntry1,
+KeyEntry2,
+KeyEntry3,
+KeyEntry4,
+KeyEntry5,
+KeyEntry6,
+KeyEntry7,
+KeyEntry8,
+KeyEntry9,
+KeyEntry10
+
+ from npd_offset_technical_tbl a
+join npd_samplegeneralspec_tbl b on a.SampleID=b.SampleID
+where a.Status<>255;
+END

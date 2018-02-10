@@ -1,0 +1,29 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `CHECK_npd_woven_spec_OR_NOT`(
+in inBrandID int,
+in inProgramID int,
+in inLength decimal(18,4),
+in inWidth decimal(18,4),
+in inQuotedPrice int,
+in inImagepath varchar(50)
+
+)
+BEGIN
+
+ IF EXISTS
+	        (
+			    SELECT *
+					FROM npd_woven_spec_tbl
+					WHERE  BrandID=inBrandID and ProgramID=inProgramID and Length=inLength and Width=inWidth and QuotedPrice=inQuotedPrice and Imagepath=inImagepath
+					AND Status <> 255
+                    
+			)
+  THEN
+     
+    
+	           SELECT 1 AS pflExists ;
+	    
+       
+	   ELSE
+	           SELECT 0 AS pflExists;
+	END IF;
+END

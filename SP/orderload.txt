@@ -1,0 +1,29 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `orderload`(CompanyID int)
+BEGIN
+SELECT 
+WorkOrderNo AS 'Order No',
+OrderReceiveDate AS  'Order Date',
+ClientName AS 'Party Name',
+WOM.CustomerPONo AS 'PO No',
+ExtraColumn1 AS 'URN No',
+ExtraColumn2 AS 'MC Style',
+BrandName AS 'Buyer Name',
+SampleName AS 'Item Name',
+KeyEntry1 AS 'Color',
+KeyEntry3 AS 'Style',
+
+SUM(CASE WHEN ReturnQty is null THEN BreakDownQTY ELSE 0 END) as 'Total Qty',
+(CASE WHEN AdjRate is null THEN Price ELSE 0 END)  as 'Rate/1000',
+CASE WHEN AdjAmount is null THEN OrderValue ELSE 0 END  as 'Total Amount',
+(SUM(CASE WHEN ReturnQty is null THEN BreakDownQTY ELSE 0 END)) * (CASE WHEN AdjRate is null THEN Price ELSE 0 END) / WastagePercentage as 'Total Amount'
+FROM ORD_WorkOrderMaster_Tbl WOM
+JOIN NPD_CustomerProfile_Tbl CP ON CP.ClientID=WOM.ClientID
+JOIN NPD_Brand_Tbl B ON B.BrandID=WOM.BrandID
+JOIN ORD_WorkOrderDetail_Tbl WOD ON WOD.WorkOrderID=WOM.WorkOrderID
+JOIN NPD_SampleWise_Parts_Length SWPL ON SWPL.PartsID=WOD.PartsID
+JOIN NPD_SampleGeneralSpec_Tbl SGS ON SGS.SampleID=SWPL.SampleID
+JOIN ORD_WorkOrderWiseBreakDownDetail_Tbl WOWBD ON WOWBD.WorkOrderID=WOD.WorkOrderID
+where WOM.CompanyID=1
+GROUP BY WorkOrderNo,OrderReceiveDate,ClientName,WOM.CustomerPONo,ExtraColumn1,BrandName,SampleName,WOWBD.KeyEntry1,WOWBD.KeyEntry3,Price,ExtraColumn2,AdjRate,AdjAmount,WastagePercentage
+ORDER BY WorkOrderNo;
+END
