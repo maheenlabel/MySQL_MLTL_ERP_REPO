@@ -1,0 +1,42 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `lOAD_grid_npd_offset_spec_proc`(in samplesname varchar(100))
+BEGIN
+select 
+`Offset_spec_ID`,
+SampleID,
+SampleName,
+a.BrandID,
+b.BrandName,
+a.ProgramID,
+c.ProgramName,
+a.ProductCategoryID,
+a.ProductSubCategoryID,
+d.ProductSubCategoryName,
+a.ClientID,
+e.ClientName,
+a.CompanyID,
+f.CompanyName,
+a.NPDExecutive,
+g.FirstName,  
+`Unit`,
+H.ListItem,
+`Length`,
+`Width`,
+PaperGSM,
+Noofups,
+`QuotedPrice`,
+`ArtworkLocation_FileName`,
+`Imagepath`,
+ CASE when Cancel=0 then 'No' else 'Yes' end as Cancel ,
+`TotalNoOfColor`
+
+ from npd_offset_spec_tbl a
+join npd_brand_tbl b on a.BrandID=b.BrandID
+join npd_program_tbl c on c.ProgramID=a.ProgramID
+join npd_productsubcategory_tbl d on d.ProductSubCategoryID=a.ProductSubCategoryID
+join npd_customerprofile_tbl e on e.ClientID=a.ClientID
+join com_company_tbl f on f.CompanyID=a.CompanyID
+join Com_EmployeePersonalInfo_tbl g on g.Emp_ID=a.NPDExecutive
+join config_lov_tbl h on h.ID=a.Unit 
+where a.Status<>255 and SampleName=samplesname;
+
+END

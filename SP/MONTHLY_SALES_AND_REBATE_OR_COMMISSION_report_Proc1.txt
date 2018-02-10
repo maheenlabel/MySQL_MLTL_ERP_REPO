@@ -1,0 +1,90 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `MONTHLY_SALES_AND_REBATE_OR_COMMISSION_report_Proc1`( 
+		p_ProductCategoryID  INT,
+		p_WorkOrderID        INT,
+		p_ClientID           INT,
+		p_SampleID           INT,
+		p_BrandID            INT, 		   
+		p_CompanyID          INT,
+		p_SalesPersonID      INT, 
+		p_Challan_Date_Form	DATE,
+		p_Challan_date_to	DATE
+)
+BEGIN
+      
+		
+	  SELECT
+	   WOM.WorkOrderNo,
+	    MDC.ChallanNo,
+		 MDC.ChallanDate,
+		  C.ClientName, 
+		  (E.FirstName+ '' +E.MiddleName + '' +E.LastName) AS SalesPerson,
+		  WOM.CustomerPONo,
+		   B.BrandName,
+		    PC.ProductCategoryName,
+			SPC.ProductSubCategoryName,
+			 SGS.SampleName,
+			DCB.KeyEntry1,
+			 DCB.KeyEntry2,
+			 DCB.KeyEntry3,
+			 DCB.KeyEntry4,
+			 DDC.ChallanQty,
+			 WOD.Price,
+			((DDC.ChallanQty*WOD.Price)/1000) as GrossSales,
+
+			 CommissionPercent,
+			
+
+			CASE WHEN IP.CommissionPercent=1 THEN (CommissionPercent*((DDC.ChallanQty*WOD.Price)/1000))/100 
+			ELSE Commission
+			END as CommissionPercentAMOUNT,
+
+			 ExtraRebate,
+			
+
+			CASE WHEN IP.ExtraRebatePercent=1 THEN (ExtraRebate*((DDC.ChallanQty*WOD.Price)/1000))/100 
+			ELSE ExtraRebate
+			END as ExtraRebatePercent,  
+			 			
+			 COM.CompanyName,
+			 COM.Address,
+			 COM.Email,
+			 COM.Mobile,
+			 case when p_Challan_Date_Form='' then '1900-01-01'
+			 else cast(p_Challan_Date_Form as date)
+			 end FromDate,
+			  case when p_Challan_date_to='' then '2500-01-01'
+			 else cast(p_Challan_date_to as date)
+			 end ToDate
+
+
+
+
+
+		FROM  ORD_DeliveryChallanMaster_Tbl AS MDC 
+		JOIN ORD_DeliveryChallanDetails_Tbl AS DDC ON MDC.DeliveryChallanID = DDC.DeliveryChallanID AND MDC.StatusID<>255 AND DDC.StatusID<>255
+		JOIN ORD_DeliveryChallanBreakDownDetails_Tbl AS DCB ON DDC.DeliveryChallanDetailsID = DCB.DeliveryChallanDetailsID AND DCB.StatusID<>255
+		JOIN NPD_CustomerProfile_Tbl AS C ON MDC.CustomerID = C.ClientID
+		JOIN ORD_WorkOrderMaster_Tbl AS WOM ON WOM.WorkOrderID = MDC.WorkOrderMasterID
+		JOIN ORD_WorkOrderDetail_Tbl AS WOD ON WOD.WorkOrderID = WOM.WorkOrderID
+		JOIN NPD_SampleWise_Parts_Length AS SPL ON SPL.PartsID = DDC.PartsID
+		JOIN NPD_SampleGeneralSpec_Tbl AS SGS ON SGS.SampleID = SPL.SampleID
+		JOIN NPD_ProductCategory_Tbl AS PC ON PC.ProductCategoryID = SGS.ProductCategoryID
+		JOIN NPD_Brand_Tbl AS B ON B.BrandID = SGS.BrandID
+		JOIN Com_Company_tbl AS COM ON COM.CompanyID=SGS.CompanyID
+		JOIN Com_EmployeePersonalInfo_tbl E ON E.Emp_ID=WOM.SalesPersonID
+		JOIN NPD_ProductSubCategory_Tbl SPC ON SPC.ProductCategoryID=PC.ProductCategoryID
+		JOIN COST_ItemPriceBuyerWise_Tbl IP ON IP.SampleID=SGS.SampleID
+
+       WHERE  WOM.OrderType=0 AND WOM.WorkOrderID = CASE WHEN p_WorkOrderID = 0 THEN WOM.WorkOrderID ELSE p_WorkOrderID END
+		 AND SGS.SampleID = CASE WHEN p_SampleID = 0 THEN SGS.SampleID ELSE p_SampleID END
+		 AND C.ClientID = CASE WHEN p_ClientID = 0 THEN C.ClientID ELSE p_ClientID END
+	     AND PC.ProductCategoryID = CASE WHEN p_ProductCategoryID = 0 THEN PC.ProductCategoryID ELSE p_ProductCategoryID END 
+		 AND B.BrandID= CASE WHEN p_BrandID=0 THEN B.BrandID ELSE p_BrandID END
+		 AND COM.CompanyID=CASE WHEN p_CompanyID=0 THEN COM.CompanyID ELSE p_CompanyID END
+		 AND E.Emp_ID=CASE WHEN p_SalesPersonID=0 THEN E.Emp_ID ELSE p_SalesPersonID END
+		 AND ChallanDate >= CASE WHEN p_Challan_Date_Form = '1900-01-01' THEN ChallanDate ELSE p_Challan_Date_Form END
+		 AND ChallanDate <= CASE WHEN p_Challan_date_to = '2500-01-01' THEN ChallanDate ELSE p_Challan_date_to END;
+		 
+
+
+END

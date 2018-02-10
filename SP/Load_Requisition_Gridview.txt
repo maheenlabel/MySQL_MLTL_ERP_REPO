@@ -1,0 +1,16 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_Requisition_Gridview`(in _SampleID int)
+BEGIN
+SELECT A.SampleID,
+A.SampleName,
+ItemID,
+ItemCode,
+ (Quanity/1000)*SampleQty as Qty ,
+ 0 AS Rate,
+ 0 as Amount,
+ SuppilerID
+ FROM npd_woven_spec_tbl A
+JOIN npd_woven_material_tbl B ON A.SampleID=B.SampleID
+JOIN inv_itemmaster_tbl  C ON C.ItemID=B.StoreItemID
+WHERE Status<>255 AND StatusID<>255 and A.SampleID=_SampleID
+order by SuppilerID asc;
+END

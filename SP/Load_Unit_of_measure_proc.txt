@@ -1,0 +1,5 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_Unit_of_measure_proc`()
+BEGIN
+select ID,ListItem
+ from Config_LOV_Tbl where LovType='UoM';
+END

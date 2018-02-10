@@ -1,0 +1,128 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `InsertUpdatePFL_GeneralSpce_spec`(
+in GSampleID int,
+in SampleNo nvarchar(50),
+in SampleName nvarchar(50),
+in CustomerSampleName nvarchar(50),
+IN BrandID int,
+IN ProgramID int,
+in ProductCategoryID int,
+IN ProductSubCategoryID int,
+IN ClientID int,
+IN CompanyID int,
+IN NPDExecutive int,
+IN Unit int,
+IN Length decimal(18, 4),
+IN Width decimal(18, 4),
+IN QuotedPrice nvarchar(50),
+IN ArtworkLocation_FileName nvarchar(50),
+IN Imagepath nvarchar(50) ,
+IN Cancel int,
+IN CreatedBy int,
+IN CreationDate datetime,
+IN Status int,
+IN TotalNoOfColor int,
+IN ModifyBy int,
+IN ModifyDate datetime,
+IN CommandID int
+
+)
+BEGIN
+ declare P_SampleNo nvarchar(50);
+ declare P_CustomerSampleName nvarchar(50);
+
+IF CommandID=1 THEN
+
+
+SET P_CustomerSampleName=SampleName;
+
+SET SampleName=Concat(SampleName,'-',CAST(CAST(Length AS decimal(18,2)) AS nchar));
+
+SELECT P_SampleNo = CONCAT( 'P-' , RIGHT(concat('000000' , (select ifnull(0,(SUBSTRING(SampleNo,3,6))+1) as SampleNo 
+from npd_samplegeneralspec_tbl 
+where SampleNo like 'P%') AND PRODUCTCATEGORYID=2), 6) , '-' , CAST(YEAR(curdate()) AS nchar));
+
+INSERT INTO `npd_samplegeneralspec_tbl`
+(
+
+SampleNo ,
+SampleName,
+CustomerSampleName,
+BrandID,
+ProgramID,
+ProductCategoryID,
+ProductSubCategoryID,
+ClientID,
+CompanyID,
+NPDExecutive,
+Unit,
+Length,
+Width,
+QuotedPrice,
+ArtworkLocation,
+Imagepath,
+Cancel,
+CreatedBy,
+CreationDate,
+Status,
+TotalNoOfColor,
+ModifyBy,
+ModifyDate)
+VALUES
+(
+
+P_SampleNo ,
+SampleName,
+P_CustomerSampleName,
+BrandID,
+ProgramID,
+ProductCategoryID,
+ProductSubCategoryID,
+ClientID,
+CompanyID,
+NPDExecutive,
+Unit,
+Length,
+Width,
+QuotedPrice,
+ArtworkLocation_FileName,
+Imagepath,
+Cancel,
+CreatedBy,
+CreationDate,
+Status,
+TotalNoOfColor,
+ModifyBy,
+ModifyDate
+);
+
+ELSE 
+UPDATE `npd_samplegeneralspec_tbl`
+SET
+
+SampleName=SampleName,
+CustomerSampleName=P_CustomerSampleName,
+BrandID= BrandID,
+ProgramID =ProgramID,
+ProductCategoryID=ProductCategoryID,
+ProductSubCategoryID = ProductSubCategoryID,
+ClientID = ClientID,
+CompanyID = CompanyID,
+NPDExecutive =NPDExecutive,
+Unit = Unit,
+Length = Length,
+Width =Width,
+QuotedPrice = QuotedPrice,
+ArtworkLocation = ArtworkLocation_FileName,
+Imagepath = Imagepath,
+Cancel = Cancel,
+CreatedBy = CreatedBy,
+CreationDate = CreationDate,
+Status = Status,
+TotalNoOfColor = TotalNoOfColor,
+ModifyBy = ModifyBy,
+ModifyDate = ModifyDate
+WHERE SampleID = GSampleID;
+
+
+END IF;
+END

@@ -1,0 +1,4 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `LoadOffsetBoardType`()
+BEGIN
+Select ID,ListItem from config_lov_tbl where LovType = 'OffsetBoardType';
+END

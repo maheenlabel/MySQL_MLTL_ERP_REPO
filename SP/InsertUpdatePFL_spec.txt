@@ -1,0 +1,111 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `InsertUpdatePFL_spec`(
+IN spec_ID int,
+IN SampleID int,
+in SampleName nvarchar(50),
+IN BrandID int,
+ IN ProgramID int,
+ in ProductCategoryID int,
+IN ProductSubCategoryID int,
+IN ClientID int,
+IN CompanyID int,
+ IN NPDExecutive int,
+IN Unit int,
+ IN Length decimal(18, 4),
+IN Width decimal(18, 4),
+IN QuotedPrice nvarchar(50),
+IN ArtworkLocation_FileName nvarchar(50),
+IN Imagepath nvarchar(50) ,
+IN Cancel int,
+IN CreatedBy int,
+IN CreationDate datetime,
+IN Status int,
+IN TotalNoOfColor int,
+IN ModifyBy int,
+IN ModifyDate datetime,
+IN CommandID int
+
+)
+BEGIN
+
+IF CommandID=1 THEN
+
+INSERT INTO `npd_pfl_spec_tbl`
+(
+SampleID,
+SampleName,
+BrandID,
+ProgramID,
+ProductCategoryID,
+ProductSubCategoryID,
+ClientID,
+CompanyID,
+NPDExecutive,
+Unit,
+Length,
+Width,
+QuotedPrice,
+ArtworkLocation_FileName,
+Imagepath,
+Cancel,
+CreatedBy,
+CreationDate,
+Status,
+TotalNoOfColor,
+ModifyBy,
+ModifyDate)
+VALUES
+(
+SampleID,
+SampleName,
+BrandID,
+ProgramID,
+ProductCategoryID,
+ProductSubCategoryID,
+ClientID,
+CompanyID,
+NPDExecutive,
+Unit,
+Length,
+Width,
+QuotedPrice,
+ArtworkLocation_FileName,
+Imagepath,
+Cancel,
+CreatedBy,
+CreationDate,
+Status,
+TotalNoOfColor,
+ModifyBy,
+ModifyDate
+);
+
+ELSE 
+UPDATE `npd_pfl_spec_tbl`
+SET
+SampleID = SampleID,
+SampleName=SampleName,
+BrandID= BrandID,
+ProgramID =ProgramID,
+ProductCategoryID=ProductCategoryID,
+ProductSubCategoryID = ProductSubCategoryID,
+ClientID = ClientID,
+CompanyID = CompanyID,
+NPDExecutive =NPDExecutive,
+Unit = Unit,
+Length = Length,
+Width =Width,
+QuotedPrice = QuotedPrice,
+ArtworkLocation_FileName = ArtworkLocation_FileName,
+Imagepath = Imagepath,
+Cancel = Cancel,
+CreatedBy = CreatedBy,
+CreationDate = CreationDate,
+Status = Status,
+TotalNoOfColor = TotalNoOfColor,
+ModifyBy = ModifyBy,
+ModifyDate = ModifyDate
+WHERE PFL_spec_ID = spec_ID;
+
+
+ END IF;
+ END

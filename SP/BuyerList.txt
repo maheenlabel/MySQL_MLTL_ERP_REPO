@@ -1,0 +1,5 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `BuyerList`(IN BID int)
+BEGIN
+select ProgramID,ProgramName
+ from NPD_Program_Tbl where BrandID= BID;
+END

@@ -1,0 +1,5 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_CustomerProfile_proc`()
+BEGIN
+select ClientID,ClientName
+ from NPD_CustomerProfile_Tbl;
+END

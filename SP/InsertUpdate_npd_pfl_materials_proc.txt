@@ -1,0 +1,52 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `InsertUpdate_npd_pfl_materials_proc`(
+in Material_ID int,
+in SampleID int,
+in StoreItemID int,
+in Quanity decimal(18,5),
+ in Unit int,
+in MahenCode nvarchar(45),
+in CreatedBy int,
+in CreationDate datetime,
+in Status int,
+IN CommandID int
+)
+BEGIN
+IF CommandID=1 THEN
+
+INSERT INTO `npd_pfl_materials_tbl`
+(
+SampleID,
+StoreItemID,
+Quanity,
+Unit,
+MahenCode,
+CreatedBy ,
+CreationDate,
+ Status
+)
+VALUES
+(
+SampleID,
+StoreItemID,
+Quanity,
+Unit,
+MahenCode,
+CreatedBy ,
+CreationDate,
+ Status);
+ELSE if CommandID=2 THEN
+UPDATE `npd_pfl_materials_tbl`
+SET
+
+SampleID = SampleID,
+StoreItemID = StoreItemID,
+Quanity = Quanity,
+Unit= Unit,
+MahenCode= MahenCode,
+CreatedBy= CreatedBy,
+CreationDate=CreationDate,
+ Status=Status
+WHERE Pfl_Material_ID = Material_ID;
+END IF;
+END IF;
+end

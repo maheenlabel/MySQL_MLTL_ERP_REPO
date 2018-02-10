@@ -1,0 +1,6 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `testSampleNo`(out P_SampleNo nvarchar(50))
+BEGIN
+SELECT P_SampleNo=CONCAT('P' , '-' , RIGHT(concat('000000' , (select max((SUBSTRING(SampleNo,3,6))+1) as SampleNo 
+from npd_samplegeneralspec_tbl 
+where SampleNo like 'P%' and productcategoryid=2)), 6) , '-' , CAST(YEAR(curdate()) AS nchar));
+END

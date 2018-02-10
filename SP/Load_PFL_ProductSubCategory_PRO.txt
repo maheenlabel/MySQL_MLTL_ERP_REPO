@@ -1,0 +1,5 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_PFL_ProductSubCategory_PRO`()
+BEGIN
+select ProductSubCategoryID,ProductSubCategoryName
+ from NPD_ProductSubCategory_Tbl where ProductCategoryID=2;
+END

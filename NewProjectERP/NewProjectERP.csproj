@@ -1,0 +1,850 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6AD9F17-8049-47A0-9025-51C8F4710036}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewProjectERP</RootNamespace>
+    <AssemblyName>NewProjectERP</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.10.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql">
+      <HintPath>..\project\CRUDWithPostgre\Test_Website\bin\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap">
+      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.0.0\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.1.10.2\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <Private>True</Private>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.1.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.1.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.1.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.2.0.0\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.0\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.0\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\AddPhoneNumber.aspx" />
+    <Content Include="Account\Confirm.aspx" />
+    <Content Include="Account\Forgot.aspx" />
+    <Content Include="Account\Lockout.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Manage.aspx" />
+    <Content Include="Account\ManageLogins.aspx" />
+    <Content Include="Account\ManagePassword.aspx" />
+    <Content Include="Account\OpenAuthProviders.ascx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="Account\ResetPassword.aspx" />
+    <Content Include="Account\ResetPasswordConfirmation.aspx" />
+    <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
+    <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="AutoSearchCompleted.aspx" />
+    <Content Include="categorySampleApproval.aspx" />
+    <Content Include="COMMON\User.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Content\bootstrap-responsive.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\jquery-ui-1.7.1.custom.css" />
+    <Content Include="Content\css\metro.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\css\style_blue.css" />
+    <Content Include="Content\css\style_brown.css" />
+    <Content Include="Content\css\style_default.css" />
+    <Content Include="Content\css\style_light.css" />
+    <Content Include="Content\css\style_purple.css" />
+    <Content Include="Content\css\style_responsive.css" />
+    <Content Include="Content\font-awesome\.gitignore" />
+    <Content Include="Content\font-awesome\css\font-awesome-ie7.min.css" />
+    <Content Include="Content\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\font-awesome\docs\assets\css\font-awesome-ie7.min.css" />
+    <Content Include="Content\font-awesome\docs\assets\css\font-awesome.css" />
+    <Content Include="Content\font-awesome\docs\assets\css\font-awesome.min.css" />
+    <Content Include="Content\font-awesome\docs\assets\css\prettify.css" />
+    <Content Include="Content\font-awesome\docs\assets\css\site.css" />
+    <Content Include="Content\font-awesome\docs\assets\ico\favicon.ico" />
+    <Content Include="Content\font-awesome\docs\assets\img\contribution-sample.png" />
+    <Content Include="Content\font-awesome\docs\assets\img\fort_awesome.jpg" />
+    <Content Include="Content\font-awesome\docs\assets\img\glyphicons-halflings-white.png" />
+    <Content Include="Content\font-awesome\docs\assets\img\glyphicons-halflings.png" />
+    <Content Include="Content\font-awesome\docs\assets\js\backbone.min.js" />
+    <Content Include="Content\font-awesome\docs\assets\js\bootstrap-222.min.js" />
+    <Content Include="Content\font-awesome\docs\assets\js\index\index.js" />
+    <Content Include="Content\font-awesome\docs\assets\js\jquery-1.7.1.min.js" />
+    <Content Include="Content\font-awesome\docs\assets\js\prettify.min.js" />
+    <Content Include="Content\font-awesome\docs\assets\js\underscore.min.js" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\tests\buttons.html" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\tests\css-tests.css" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\tests\css-tests.html" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\tests\forms-responsive.html" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\tests\forms.html" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\tests\navbar-fixed-top.html" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\tests\navbar-static-top.html" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\tests\navbar.html" />
+    <Content Include="Content\font-awesome\docs\design.html" />
+    <Content Include="Content\font-awesome\docs\index.html" />
+    <Content Include="Content\font-awesome\docs\test.html" />
+    <Content Include="Content\glyphicons\css\glyphicons.css" />
+    <Content Include="Content\glyphicons\css\style.css" />
+    <Content Include="Content\glyphicons\fonts\glyphicons-regular.svg" />
+    <Content Include="Content\glyphicons\images\glyphicons-white.png" />
+    <Content Include="Content\glyphicons\images\glyphicons-white.svg" />
+    <Content Include="Content\glyphicons\images\glyphicons.png" />
+    <Content Include="Content\glyphicons\images\glyphicons.svg" />
+    <Content Include="Content\glyphicons\index.html" />
+    <Content Include="Content\glyphicons\scripts\modernizr.js" />
+    <Content Include="Content\glyphicons\scripts\modernizr_license.txt" />
+    <Content Include="Content\glyphicons_halflings\css\halflings.css" />
+    <Content Include="Content\glyphicons_halflings\css\style.css" />
+    <Content Include="Content\glyphicons_halflings\fonts\glyphiconshalflings-regular.svg" />
+    <Content Include="Content\glyphicons_halflings\images\glyphicons_halflings-white.png" />
+    <Content Include="Content\glyphicons_halflings\images\glyphicons_halflings-white.svg" />
+    <Content Include="Content\glyphicons_halflings\images\glyphicons_halflings.png" />
+    <Content Include="Content\glyphicons_halflings\images\glyphicons_halflings.svg" />
+    <Content Include="Content\glyphicons_halflings\index.html" />
+    <Content Include="Content\glyphicons_halflings\scripts\modernizr.js" />
+    <Content Include="Content\glyphicons_halflings\scripts\modernizr_license.txt" />
+    <Content Include="Content\jquery-ui-1.12.1\AUTHORS.txt" />
+    <Content Include="Content\jquery-ui-1.12.1\external\jquery\jquery.js" />
+    <Content Include="Content\jquery-ui-1.12.1\images\ui-icons_444444_256x240.png" />
+    <Content Include="Content\jquery-ui-1.12.1\images\ui-icons_555555_256x240.png" />
+    <Content Include="Content\jquery-ui-1.12.1\images\ui-icons_777620_256x240.png" />
+    <Content Include="Content\jquery-ui-1.12.1\images\ui-icons_777777_256x240.png" />
+    <Content Include="Content\jquery-ui-1.12.1\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Content\jquery-ui-1.12.1\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\jquery-ui-1.12.1\index.html" />
+    <Content Include="Content\jquery-ui-1.12.1\jquery-3.3.1.min.js" />
+    <Content Include="Content\jquery-ui-1.12.1\jquery-ui.css" />
+    <Content Include="Content\jquery-ui-1.12.1\jquery-ui.js" />
+    <Content Include="Content\jquery-ui-1.12.1\jquery-ui.min.css" />
+    <Content Include="Content\jquery-ui-1.12.1\jquery-ui.min.js" />
+    <Content Include="Content\jquery-ui-1.12.1\jquery-ui.structure.css" />
+    <Content Include="Content\jquery-ui-1.12.1\jquery-ui.structure.min.css" />
+    <Content Include="Content\jquery-ui-1.12.1\jquery-ui.theme.css" />
+    <Content Include="Content\jquery-ui-1.12.1\jquery-ui.theme.min.css" />
+    <Content Include="Content\jquery-ui-1.12.1\LICENSE.txt" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="categoryList.aspx" />
+    <Content Include="GatewayofNewExistSampaleApproval.aspx" />
+    <Content Include="GatewayofNewExist.aspx" />
+    <Content Include="INVENTORY\INV_RequisitionGenerate.aspx" />
+    <Content Include="INVENTORY\INV_Requisition.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="MailRoom.aspx" />
+    <Content Include="MySqlDataGrid.aspx" />
+    <Content Include="NPD\AutoSearchCompleted.aspx" />
+    <Content Include="NPD\Npd_Offset_Materials.aspx" />
+    <Content Include="NPD\NPD_Offset_Spec.aspx" />
+    <Content Include="NPD\npd_Offset_techonical.aspx" />
+    <Content Include="NPD\npd_Woven_techonical.aspx" />
+    <Content Include="NPD\Npd_Woven_Materials.aspx" />
+    <Content Include="NPD\Npd_pfl_Materials.aspx" />
+    <Content Include="NPD\NPD_Woven_Spec.aspx" />
+    <Content Include="NPD\NPD_PFL_Spec.aspx" />
+    <Content Include="NPD\npd_pfl_techonical.aspx" />
+    <Content Include="NPD\PD_DashBorad.aspx" />
+    <Content Include="PDSearch.aspx" />
+    <Content Include="Main_Module_Page.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Account\Web.config" />
+    <Content Include="Content\font-awesome\docs\assets\font\fontawesome-webfont.eot" />
+    <Content Include="Content\font-awesome\docs\assets\font\fontawesome-webfont.ttf" />
+    <Content Include="Content\font-awesome\docs\assets\font\fontawesome-webfont.woff" />
+    <Content Include="Content\font-awesome\docs\assets\font\FontAwesome.otf" />
+    <Content Include="Content\font-awesome\docs\assets\font\museo_slab_300-webfont.eot" />
+    <Content Include="Content\font-awesome\docs\assets\font\museo_slab_300-webfont.ttf" />
+    <Content Include="Content\font-awesome\docs\assets\font\museo_slab_500-webfont.eot" />
+    <Content Include="Content\font-awesome\docs\assets\font\museo_slab_500-webfont.ttf" />
+    <Content Include="Content\font-awesome\docs\assets\font\proximanova-sbold-webfont.eot" />
+    <Content Include="Content\font-awesome\docs\assets\font\proximanova-sbold-webfont.ttf" />
+    <Content Include="Content\font-awesome\docs\assets\font\proximanova-webfont.eot" />
+    <Content Include="Content\font-awesome\docs\assets\font\proximanova-webfont.ttf" />
+    <Content Include="Content\font-awesome\docs\assets\img\icon-flag.pdf" />
+    <Content Include="Content\font-awesome\docs\assets\less\font-awesome-ie7.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\font-awesome.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\font-site.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\mixins.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\site.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\accordion.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\alerts.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\bootstrap.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\breadcrumbs.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\button-groups.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\buttons.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\carousel.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\close.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\code.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\component-animations.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\dropdowns.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\forms.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\grid.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\hero-unit.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\labels-badges.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\layouts.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\media.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\mixins.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\modals.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\navbar.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\navs.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\pager.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\pagination.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\popovers.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\progress-bars.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\reset.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\responsive-1200px-min.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\responsive-767px-max.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\responsive-768px-979px.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\responsive-navbar.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\responsive-utilities.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\responsive.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\scaffolding.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\sprites.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\tables.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\thumbnails.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\tooltip.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\type.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\utilities.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\variables.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\twbs-222\wells.less" />
+    <Content Include="Content\font-awesome\docs\assets\less\variables.less" />
+    <Content Include="Content\font-awesome\font\fontawesome-webfont.eot" />
+    <Content Include="Content\font-awesome\font\fontawesome-webfont.ttf" />
+    <Content Include="Content\font-awesome\font\fontawesome-webfont.woff" />
+    <Content Include="Content\font-awesome\font\FontAwesome.otf" />
+    <Content Include="Content\font-awesome\less\font-awesome-ie7.less" />
+    <Content Include="Content\font-awesome\less\font-awesome.less" />
+    <Content Include="Content\font-awesome\README.md" />
+    <Content Include="Content\font-awesome\sass\font-awesome.sass" />
+    <Content Include="Content\font-awesome\sass\font-awesome.scss" />
+    <Content Include="Content\glyphicons\fonts\glyphicons-regular.eot" />
+    <Content Include="Content\glyphicons\fonts\glyphicons-regular.otf" />
+    <Content Include="Content\glyphicons\fonts\glyphicons-regular.ttf" />
+    <Content Include="Content\glyphicons\fonts\glyphicons-regular.woff" />
+    <Content Include="Content\glyphicons\less\glyphicons.less" />
+    <Content Include="Content\glyphicons\less\reset.less" />
+    <Content Include="Content\glyphicons\less\site.less" />
+    <Content Include="Content\glyphicons\less\style.less" />
+    <Content Include="Content\glyphicons_halflings\fonts\glyphiconshalflings-regular.eot" />
+    <Content Include="Content\glyphicons_halflings\fonts\glyphiconshalflings-regular.otf" />
+    <Content Include="Content\glyphicons_halflings\fonts\glyphiconshalflings-regular.ttf" />
+    <Content Include="Content\glyphicons_halflings\fonts\glyphiconshalflings-regular.woff" />
+    <Content Include="Content\glyphicons_halflings\less\halflings.less" />
+    <Content Include="Content\glyphicons_halflings\less\reset.less" />
+    <Content Include="Content\glyphicons_halflings\less\site.less" />
+    <Content Include="Content\glyphicons_halflings\less\style.less" />
+    <Content Include="Signin.aspx" />
+    <Content Include="TestPageNewton.aspx" />
+    <Content Include="WovenSpectedDataSheet.aspx" />
+    <Content Include="Content\jquery-ui-1.12.1\package.json" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="PFLSpectedDataSheet.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Site.Master" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Bundle.config" />
+    <None Include="Project_Readme.html" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Site.Mobile.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\AddPhoneNumber.aspx.cs">
+      <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AddPhoneNumber.aspx.designer.cs">
+      <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Confirm.aspx.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Confirm.aspx.designer.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Forgot.aspx.cs">
+      <DependentUpon>Forgot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Forgot.aspx.designer.cs">
+      <DependentUpon>Forgot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Lockout.aspx.cs">
+      <DependentUpon>Lockout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Lockout.aspx.designer.cs">
+      <DependentUpon>Lockout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Manage.aspx.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Manage.aspx.designer.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ManageLogins.aspx.cs">
+      <DependentUpon>ManageLogins.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManageLogins.aspx.designer.cs">
+      <DependentUpon>ManageLogins.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ManagePassword.aspx.cs">
+      <DependentUpon>ManagePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManagePassword.aspx.designer.cs">
+      <DependentUpon>ManagePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\OpenAuthProviders.ascx.cs">
+      <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\OpenAuthProviders.ascx.designer.cs">
+      <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\RegisterExternalLogin.aspx.cs">
+      <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\RegisterExternalLogin.aspx.designer.cs">
+      <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ResetPassword.aspx.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ResetPassword.aspx.designer.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ResetPasswordConfirmation.aspx.cs">
+      <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ResetPasswordConfirmation.aspx.designer.cs">
+      <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\TwoFactorAuthenticationSignIn.aspx.cs">
+      <DependentUpon>TwoFactorAuthenticationSignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\TwoFactorAuthenticationSignIn.aspx.designer.cs">
+      <DependentUpon>TwoFactorAuthenticationSignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\VerifyPhoneNumber.aspx.cs">
+      <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
+      <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Resource.ar.designer.cs">
+      <DependentUpon>Resource.ar.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\Resource.fr.designer.cs">
+      <DependentUpon>Resource.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="AutoSearchCompleted.aspx.cs">
+      <DependentUpon>AutoSearchCompleted.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AutoSearchCompleted.aspx.designer.cs">
+      <DependentUpon>AutoSearchCompleted.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="categorySampleApproval.aspx.cs">
+      <DependentUpon>categorySampleApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="categorySampleApproval.aspx.designer.cs">
+      <DependentUpon>categorySampleApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="COMMON\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="COMMON\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DAC\Config_CommonDB.cs" />
+    <Compile Include="DAC\NPD_Offset_SPEC.cs" />
+    <Compile Include="DAC\NPD_PFL_SPEC.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="categoryList.aspx.cs">
+      <DependentUpon>categoryList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="categoryList.aspx.designer.cs">
+      <DependentUpon>categoryList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GatewayofNewExistSampaleApproval.aspx.cs">
+      <DependentUpon>GatewayofNewExistSampaleApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GatewayofNewExistSampaleApproval.aspx.designer.cs">
+      <DependentUpon>GatewayofNewExistSampaleApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GatewayofNewExist.aspx.cs">
+      <DependentUpon>GatewayofNewExist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GatewayofNewExist.aspx.designer.cs">
+      <DependentUpon>GatewayofNewExist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="INVENTORY\INV_RequisitionGenerate.aspx.cs">
+      <DependentUpon>INV_RequisitionGenerate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="INVENTORY\INV_RequisitionGenerate.aspx.designer.cs">
+      <DependentUpon>INV_RequisitionGenerate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="INVENTORY\INV_Requisition.aspx.cs">
+      <DependentUpon>INV_Requisition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="INVENTORY\INV_Requisition.aspx.designer.cs">
+      <DependentUpon>INV_Requisition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MailRoom.aspx.cs">
+      <DependentUpon>MailRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MailRoom.aspx.designer.cs">
+      <DependentUpon>MailRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MySqlDataGrid.aspx.cs">
+      <DependentUpon>MySqlDataGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NPD\AutoSearchCompleted.aspx.cs">
+      <DependentUpon>AutoSearchCompleted.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NPD\AutoSearchCompleted.aspx.designer.cs">
+      <DependentUpon>AutoSearchCompleted.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NPD\Npd_Offset_Materials.aspx.cs">
+      <DependentUpon>Npd_Offset_Materials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NPD\Npd_Offset_Materials.aspx.designer.cs">
+      <DependentUpon>Npd_Offset_Materials.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NPD\NPD_Offset_Spec.aspx.cs">
+      <DependentUpon>NPD_Offset_Spec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NPD\NPD_Offset_Spec.aspx.designer.cs">
+      <DependentUpon>NPD_Offset_Spec.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NPD\npd_Offset_techonical.aspx.cs">
+      <DependentUpon>npd_Offset_techonical.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NPD\npd_Offset_techonical.aspx.designer.cs">
+      <DependentUpon>npd_Offset_techonical.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NPD\npd_Woven_techonical.aspx.cs">
+      <DependentUpon>npd_Woven_techonical.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NPD\npd_Woven_techonical.aspx.designer.cs">
+      <DependentUpon>npd_Woven_techonical.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NPD\Npd_Woven_Materials.aspx.cs">
+      <DependentUpon>Npd_Woven_Materials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NPD\Npd_Woven_Materials.aspx.designer.cs">
+      <DependentUpon>Npd_Woven_Materials.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NPD\Npd_pfl_Materials.aspx.cs">
+      <DependentUpon>Npd_pfl_Materials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NPD\Npd_pfl_Materials.aspx.designer.cs">
+      <DependentUpon>Npd_pfl_Materials.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NPD\NPD_Woven_Spec.aspx.cs">
+      <DependentUpon>NPD_Woven_Spec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NPD\NPD_Woven_Spec.aspx.designer.cs">
+      <DependentUpon>NPD_Woven_Spec.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NPD\NPD_PFL_Spec.aspx.cs">
+      <DependentUpon>NPD_PFL_Spec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NPD\NPD_PFL_Spec.aspx.designer.cs">
+      <DependentUpon>NPD_PFL_Spec.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NPD\npd_pfl_techonical.aspx.cs">
+      <DependentUpon>npd_pfl_techonical.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NPD\npd_pfl_techonical.aspx.designer.cs">
+      <DependentUpon>npd_pfl_techonical.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NPD\PD_DashBorad.aspx.cs">
+      <DependentUpon>PD_DashBorad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NPD\PD_DashBorad.aspx.designer.cs">
+      <DependentUpon>PD_DashBorad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PDSearch.aspx.cs">
+      <DependentUpon>PDSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PDSearch.aspx.designer.cs">
+      <DependentUpon>PDSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Module_Page.aspx.cs">
+      <DependentUpon>Main_Module_Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main_Module_Page.aspx.designer.cs">
+      <DependentUpon>Main_Module_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="PFLSpectedDataSheet.aspx.cs">
+      <DependentUpon>PFLSpectedDataSheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PFLSpectedDataSheet.aspx.designer.cs">
+      <DependentUpon>PFLSpectedDataSheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Signin.aspx.cs">
+      <DependentUpon>Signin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Signin.aspx.designer.cs">
+      <DependentUpon>Signin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.cs" />
+    <Compile Include="TestPageNewton.aspx.cs">
+      <DependentUpon>TestPageNewton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestPageNewton.aspx.designer.cs">
+      <DependentUpon>TestPageNewton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WovenSpectedDataSheet.aspx.cs">
+      <DependentUpon>WovenSpectedDataSheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WovenSpectedDataSheet.aspx.designer.cs">
+      <DependentUpon>WovenSpectedDataSheet.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Resource.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Resource.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resource.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Resource.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resource.ar.designer.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="MySqlDataGrid.aspx.resx" />
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>19505</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:19505/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

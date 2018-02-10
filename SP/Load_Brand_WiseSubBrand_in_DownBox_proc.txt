@@ -1,0 +1,5 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_Brand_WiseSubBrand_in_DownBox_proc`(in bR_ID int )
+BEGIN
+select ProgramID,ProgramName
+ from NPD_Program_Tbl where BrandID= bR_ID;
+END

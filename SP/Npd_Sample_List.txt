@@ -1,0 +1,4 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Npd_Sample_List`()
+BEGIN
+SELECT SampleName,SampleID FROM npd_samplegeneralspec_tbl WHERE Status<>255;
+END

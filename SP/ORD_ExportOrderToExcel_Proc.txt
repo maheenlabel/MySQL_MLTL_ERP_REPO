@@ -1,0 +1,35 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `ORD_ExportOrderToExcel_Proc`(
+p_CompanyID int,
+p_CategoryID int,
+p_FromDate datetime(3),
+p_ToDate datetime(3))
+BEGIN
+SELECT 
+WorkOrderNo AS 'Order No',
+DATE_FORMAT(OrderReceiveDate,105) AS  'Order Date',
+ClientName AS 'Party Name',
+WOM.CustomerPONo AS 'PO No',
+ExtraColumn1 AS 'URN No',
+ExtraColumn2 AS 'MC Style',
+BrandName AS 'Buyer Name',
+SampleName AS 'Item Name',
+KeyEntry1 AS 'Color',
+KeyEntry3 AS 'Style',
+
+SUM(CASE WHEN IFNULL(ReturnQty,0)=0 THEN BreakDownQTY ELSE IFNULL(ReturnQty,0) END) as 'Total Qty',
+(CASE WHEN IFNULL(AdjRate,0)=0 THEN Price ELSE IFNULL(AdjRate,0) END)  as 'Rate/1000',
+-- CASE WHEN ISNULL(AdjAmount,0)=0 THEN OrderValue ELSE ISNULL(AdjAmount,0) END  as 'Total Amount'
+(SUM(CASE WHEN IFNULL(ReturnQty,0)=0 THEN BreakDownQTY ELSE IFNULL(ReturnQty,0) END)) * (CASE WHEN IFNULL(AdjRate,0)=0 THEN Price ELSE IFNULL(AdjRate,0) END) / CASE WHEN WastagePercentage=0 THEN 1000 ELSE WastagePercentage END as 'Total Amount'
+FROM ORD_WorkOrderMaster_Tbl WOM
+JOIN NPD_CustomerProfile_Tbl CP ON CP.ClientID=WOM.ClientID
+JOIN NPD_Brand_Tbl B ON B.BrandID=WOM.BrandID
+JOIN ORD_WorkOrderDetail_Tbl WOD ON WOD.WorkOrderID=WOM.WorkOrderID
+JOIN NPD_SampleWise_Parts_Length SWPL ON SWPL.PartsID=WOD.PartsID
+JOIN NPD_SampleGeneralSpec_Tbl SGS ON SGS.SampleID=SWPL.SampleID
+JOIN ORD_WorkOrderWiseBreakDownDetail_Tbl WOWBD ON WOWBD.WorkOrderID=WOD.WorkOrderID AND WOWBD.StatusID<>255
+WHERE WOM.CompanyID=CASE WHEN p_CompanyID=0 THEN WOM.CompanyID ELSE p_CompanyID END 
+AND SGS.ProductCategoryID=CASE WHEN p_CategoryID=0 THEN SGS.ProductCategoryID ELSE p_CategoryID END
+AND CAST(OrderReceiveDate AS date) BETWEEN p_FromDate AND p_ToDate AND WOM.StatusID<>255 AND OrderType=0 AND IsFOC=0 AND IsCanceled=0  
+GROUP BY WorkOrderNo,OrderReceiveDate,ClientName,WOM.CustomerPONo,ExtraColumn1,BrandName,SampleName,WOWBD.KeyEntry1,WOWBD.KeyEntry3,Price,ExtraColumn2,AdjRate,AdjAmount,WastagePercentage
+ORDER BY WorkOrderNo;
+END

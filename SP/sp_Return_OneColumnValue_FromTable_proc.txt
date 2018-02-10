@@ -1,0 +1,15 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `sp_Return_OneColumnValue_FromTable_proc`(tablename varchar(70),
+  ColumnName varchar(25),
+  PassColumnNameVale  varchar(1000) ,
+  RetunColumnName varchar(200)
+ 
+)
+    READS SQL DATA
+BEGIN
+set @loginID= null;
+set @sql_text1= concat("select ",RetunColumnName," from ",tablename," where ",ColumnName," = upper(?) into @loginID");
+set @user= PassColumnNameVale;
+prepare exec from @sql_text1;
+execute exec using @user;
+select @user;
+END

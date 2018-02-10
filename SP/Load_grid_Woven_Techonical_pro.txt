@@ -1,0 +1,41 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_grid_Woven_Techonical_pro`()
+BEGIN
+Select 
+Woven_Techonical_ID,
+a.SampleID,
+b.SampleName,
+a.WarpColor,
+c.ListItem as 'Warp Color',
+a.WeavingType,
+c.ListItem as 'Weaving Type',
+a.FileName,
+Pick,
+Cutter,
+LengthCuttoCut,
+DamaskLengh,
+Finishedlength,
+a.Width,
+Huk,
+case when WeavingType=0 then 'No' else 'Yes' end as WeavingType ,
+case when IroningInfo=0 then 'No' else 'Yes' end as IroningInfo ,
+case when UltraSonicCutting=0 then 'No' else 'Yes' end as UltraSonicCutting ,
+
+Wash_Starch_Ironing_Time,
+PickWheel,
+KeyEntry1,
+KeyEntry2,
+KeyEntry3,
+KeyEntry4,
+KeyEntry5,
+KeyEntry6,
+KeyEntry7,
+KeyEntry8,
+KeyEntry9,
+KeyEntry10
+
+ from npd_woven_techonical_tbl a
+join  npd_samplegeneralspec_tbl b on a.SampleID=b.SampleID
+join config_lov_tbl c on c.id=a.WarpColor
+join config_lov_tbl d on d.ID=a.WeavingType
+where a.StatusID<>255;
+END

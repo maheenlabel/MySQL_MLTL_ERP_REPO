@@ -1,0 +1,32 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_grid_Offset_Material_proc`()
+BEGIN
+select 
+`Offset_Material_ID`,
+a.SampleID,
+b.SampleName,
+a.BoardType,
+m.ListItem,
+`BoardGSM`,
+`IsFSC`,
+`BoardColor`,
+`AdhesiveColor`,
+a.StoreItemID,
+c.ItemCode,
+`Quanity`,
+a.Unit,
+d.ListItem,
+`MahenCode`,
+a.SupplierID,
+e.SupplierName,
+a.BatchID,
+f.ListItem
+ from npd_offset_materials_tbl a
+join npd_samplegeneralspec_tbl b on a.SampleID=b.SampleID
+join config_lov_tbl m on m.ID=a.BoardType
+join inv_itemmaster_tbl c on c.ItemID=a.StoreItemID
+join config_lov_tbl d on d.ID=a.Unit 
+join inv_supplier_tbl e on e.SupplierID=a.SupplierID
+join config_lov_tbl f on f.ID=a.BatchID
+where a.Status<>255;
+
+END

@@ -1,0 +1,70 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `InsertUpdate_npd_woven_material_proc`(
+
+in Woven_Material_ID int,
+in SampleID int,
+in StoreItemID int,
+in MaheenCode nvarchar(45),
+in Quanity decimal(18,5),
+in Unit int,
+in Color_Name nvarchar(45),
+in Denier DECIMAL(18,5),
+in Pick_Yarnwise DECIMAL(18,5),
+in SuppilerID int,
+in Batch_ID nvarchar(45),
+in StatusID int,
+in CreatedBy int,
+in CreatedDate datetime,
+in CommandID int
+)
+BEGIN
+ if CommandID=1 then
+INSERT INTO `npd_woven_material_tbl`
+(`SampleID`,
+`StoreItemID`,
+`MaheenCode`,
+`Quanity`,
+`Unit`,
+`Color_Name`,
+`Denier`,
+`Pick_Yarnwise`,
+`SuppilerID`,
+`Batch_ID`,
+`StatusID`,
+`CreatedBy`,
+`CreatedDate`
+)
+VALUES
+(SampleID,
+StoreItemID,
+MaheenCode,
+Quanity,
+Unit,
+Color_Name,
+Denier,
+Pick_Yarnwise,
+SuppilerID,
+Batch_ID,
+StatusID,
+CreatedBy,
+CreatedDate
+);
+else
+UPDATE `npd_woven_material_tbl`
+SET
+
+`SampleID` =SampleID,
+`StoreItemID` = StoreItemID,
+`MaheenCode` = MaheenCode,
+`Quanity` =Quanity,
+`Unit` = Unit,
+`Color_Name` = Color_Name,
+`Denier` = Denier,
+`Pick_Yarnwise` = Pick_Yarnwise,
+`SuppilerID` = SuppilerID,
+`Batch_ID` = Batch_ID,
+`StatusID` = StatusID,
+`CreatedBy`= CreatedBy,
+`CreatedDate`= CreatedDate
+WHERE `Woven_Material_ID` =Woven_Material_ID;
+END if;
+END

@@ -1,0 +1,1287 @@
+E:\NewProjectERP\NewProjectERP\bin\NewProjectERP.dll.config
+E:\NewProjectERP\NewProjectERP\bin\NewProjectERP.dll
+E:\NewProjectERP\NewProjectERP\bin\NewProjectERP.pdb
+E:\NewProjectERP\NewProjectERP\bin\Antlr3.Runtime.dll
+E:\NewProjectERP\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+E:\NewProjectERP\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+E:\NewProjectERP\NewProjectERP\bin\EntityFramework.dll
+E:\NewProjectERP\NewProjectERP\bin\EntityFramework.SqlServer.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Security.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+E:\NewProjectERP\NewProjectERP\bin\Newtonsoft.Json.dll
+E:\NewProjectERP\NewProjectERP\bin\Owin.dll
+E:\NewProjectERP\NewProjectERP\bin\System.Web.Optimization.dll
+E:\NewProjectERP\NewProjectERP\bin\System.Web.Providers.dll
+E:\NewProjectERP\NewProjectERP\bin\Telerik.Web.UI.dll
+E:\NewProjectERP\NewProjectERP\bin\WebGrease.dll
+E:\NewProjectERP\NewProjectERP\bin\System.Web.Optimization.xml
+E:\NewProjectERP\NewProjectERP\bin\Telerik.Web.UI.xml
+E:\NewProjectERP\NewProjectERP\bin\Antlr3.Runtime.pdb
+E:\NewProjectERP\NewProjectERP\bin\Newtonsoft.Json.xml
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\NewProjectERP\NewProjectERP\bin\EntityFramework.xml
+E:\NewProjectERP\NewProjectERP\bin\EntityFramework.SqlServer.xml
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\NewProjectERP\NewProjectERP\bin\System.Web.Providers.xml
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.xml
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Security.xml
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\NewProjectERP\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+E:\NewProjectERP\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+E:\NewProjectERP\NewProjectERP\obj\Debug\NewProjectERP.dll
+E:\NewProjectERP\NewProjectERP\obj\Debug\NewProjectERP.pdb
+E:\NewProjectERP\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+E:\NewProjectERP\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+E:\NewProjectERP\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\NewProjectERP.dll.config
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\NewProjectERP.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\NewProjectERP.pdb
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Antlr3.Runtime.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\EntityFramework.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\EntityFramework.SqlServer.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Newtonsoft.Json.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Npgsql.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Owin.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\System.Web.Optimization.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\System.Web.Providers.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\WebGrease.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Mono.Security.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Npgsql.pdb
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Npgsql.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\System.Web.Optimization.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Antlr3.Runtime.pdb
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Newtonsoft.Json.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\EntityFramework.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\EntityFramework.SqlServer.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\System.Web.Providers.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\de\Npgsql.resources.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\es\Npgsql.resources.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\fi\Npgsql.resources.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\fr\Npgsql.resources.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\ja\Npgsql.resources.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\bin\zh-CN\Npgsql.resources.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\obj\Debug\NewProjectERP.dll
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\obj\Debug\NewProjectERP.pdb
+E:\NewProjectERP\NewProjectERP - Postgre\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\NewProjectERP.dll.config
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\NewProjectERP.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\NewProjectERP.pdb
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Antlr3.Runtime.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\EntityFramework.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\EntityFramework.SqlServer.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Newtonsoft.Json.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Npgsql.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Owin.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\System.Web.Optimization.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\System.Web.Providers.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\WebGrease.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Mono.Security.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Npgsql.pdb
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Npgsql.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\System.Web.Optimization.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Antlr3.Runtime.pdb
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Newtonsoft.Json.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\EntityFramework.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\EntityFramework.SqlServer.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\System.Web.Providers.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\de\Npgsql.resources.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\es\Npgsql.resources.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\fi\Npgsql.resources.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\fr\Npgsql.resources.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\ja\Npgsql.resources.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\bin\zh-CN\Npgsql.resources.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\obj\Debug\NewProjectERP.dll
+E:\NewProjectERP-MYSQL Workbench\NewProjectERP - Postgre\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\NewProjectERP.dll.config
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\NewProjectERP.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\NewProjectERP.pdb
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\EntityFramework.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Npgsql.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Owin.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\System.Web.Optimization.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\System.Web.Providers.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\WebGrease.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Mono.Security.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Npgsql.pdb
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Npgsql.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\System.Web.Optimization.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\EntityFramework.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\System.Web.Providers.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\de\Npgsql.resources.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\es\Npgsql.resources.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\fi\Npgsql.resources.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\fr\Npgsql.resources.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\ja\Npgsql.resources.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\bin\zh-CN\Npgsql.resources.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\Mahatab Vai\Workbench\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\Mahatab Vai\Workbench\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\Mahatab Vai\Workbench\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\Mahatab Vai\Workbench\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\Mahatab Vai\Workbench\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+E:\Workbench\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+E:\Workbench\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+E:\Workbench\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+E:\Workbench\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+E:\Workbench\NewProjectERP\obj\Debug\NewProjectERP.dll
+E:\Workbench\NewProjectERP\obj\Debug\NewProjectERP.pdb
+E:\Workbench\NewProjectERP\bin\NewProjectERP.dll.config
+E:\Workbench\NewProjectERP\bin\NewProjectERP.dll
+E:\Workbench\NewProjectERP\bin\NewProjectERP.pdb
+E:\Workbench\NewProjectERP\bin\Antlr3.Runtime.dll
+E:\Workbench\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+E:\Workbench\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+E:\Workbench\NewProjectERP\bin\EntityFramework.dll
+E:\Workbench\NewProjectERP\bin\EntityFramework.SqlServer.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Workbench\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+E:\Workbench\NewProjectERP\bin\MySql.Data.dll
+E:\Workbench\NewProjectERP\bin\Newtonsoft.Json.dll
+E:\Workbench\NewProjectERP\bin\Npgsql.dll
+E:\Workbench\NewProjectERP\bin\Owin.dll
+E:\Workbench\NewProjectERP\bin\System.Web.Optimization.dll
+E:\Workbench\NewProjectERP\bin\System.Web.Providers.dll
+E:\Workbench\NewProjectERP\bin\WebGrease.dll
+E:\Workbench\NewProjectERP\bin\Mono.Security.dll
+E:\Workbench\NewProjectERP\bin\Npgsql.pdb
+E:\Workbench\NewProjectERP\bin\Npgsql.xml
+E:\Workbench\NewProjectERP\bin\System.Web.Optimization.xml
+E:\Workbench\NewProjectERP\bin\Antlr3.Runtime.pdb
+E:\Workbench\NewProjectERP\bin\Newtonsoft.Json.xml
+E:\Workbench\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Workbench\NewProjectERP\bin\EntityFramework.xml
+E:\Workbench\NewProjectERP\bin\EntityFramework.SqlServer.xml
+E:\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Workbench\NewProjectERP\bin\System.Web.Providers.xml
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.xml
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.xml
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Workbench\NewProjectERP\bin\de\Npgsql.resources.dll
+E:\Workbench\NewProjectERP\bin\es\Npgsql.resources.dll
+E:\Workbench\NewProjectERP\bin\fi\Npgsql.resources.dll
+E:\Workbench\NewProjectERP\bin\fr\Npgsql.resources.dll
+E:\Workbench\NewProjectERP\bin\ja\Npgsql.resources.dll
+E:\Workbench\NewProjectERP\bin\zh-CN\Npgsql.resources.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\NewProjectERP.dll.config
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\NewProjectERP.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\NewProjectERP.pdb
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\EntityFramework.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\MySql.Data.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Owin.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\System.Web.Optimization.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\System.Web.Providers.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\WebGrease.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Mono.Security.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Npgsql.pdb
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Npgsql.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\System.Web.Optimization.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\EntityFramework.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\System.Web.Providers.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\de\Npgsql.resources.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\es\Npgsql.resources.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\fi\Npgsql.resources.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\fr\Npgsql.resources.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\ja\Npgsql.resources.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\zh-CN\Npgsql.resources.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\Mahatab Vai\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\obj\Debug\NewProjectERP.pdb
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\NewProjectERP.dll.config
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\NewProjectERP.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\NewProjectERP.pdb
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Antlr3.Runtime.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\EntityFramework.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\EntityFramework.SqlServer.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\MySql.Data.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Newtonsoft.Json.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Owin.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\System.Web.Optimization.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\System.Web.Providers.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\WebGrease.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Mono.Security.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Npgsql.pdb
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Npgsql.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\System.Web.Optimization.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Antlr3.Runtime.pdb
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Newtonsoft.Json.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\EntityFramework.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\EntityFramework.SqlServer.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\System.Web.Providers.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\de\Npgsql.resources.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\es\Npgsql.resources.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\fi\Npgsql.resources.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\fr\Npgsql.resources.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\ja\Npgsql.resources.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\bin\zh-CN\Npgsql.resources.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\obj\Debug\NewProjectERP.dll
+E:\MySqLProject04.01.18\MLT_NEW_PROJ_01_01_2018\Workbench\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\NewProjectERP.dll.config
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\NewProjectERP.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\NewProjectERP.pdb
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\EntityFramework.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\MySql.Data.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Owin.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\System.Web.Optimization.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\System.Web.Providers.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\WebGrease.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\System.Web.Optimization.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\EntityFramework.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\System.Web.Providers.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\Mahatab Vai\Workbench_11_01_2018\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\NewProjectERP.dll.config
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\NewProjectERP.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\NewProjectERP.pdb
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\EntityFramework.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\MySql.Data.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Owin.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\System.Web.Optimization.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\System.Web.Providers.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\WebGrease.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\System.Web.Optimization.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\EntityFramework.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\System.Web.Providers.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\Palash Share Folder\Workbench_11_01_2018\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\NewProjectERP.dll.config
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\NewProjectERP.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\NewProjectERP.pdb
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\EntityFramework.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\MySql.Data.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Owin.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\System.Web.Optimization.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\System.Web.Providers.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\WebGrease.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\System.Web.Optimization.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\EntityFramework.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\System.Web.Providers.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Balwant Singh Project\21012018\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\Balwant Singh Project\21012018\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\Balwant Singh Project\21012018\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\Balwant Singh Project\21012018\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\Balwant Singh Project\21012018\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\Balwant Singh Project\21012018\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\NewProjectERP.dll.config
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\NewProjectERP.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\NewProjectERP.pdb
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\EntityFramework.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\MySql.Data.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Owin.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\System.Web.Optimization.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\System.Web.Providers.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\WebGrease.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\System.Web.Optimization.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\EntityFramework.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\System.Web.Providers.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Balwant Singh Project\22012018\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+D:\Balwant Singh Project\22012018\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\Balwant Singh Project\22012018\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\Balwant Singh Project\22012018\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\Balwant Singh Project\22012018\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\Balwant Singh Project\22012018\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\Balwant Singh Project\23012018\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\Balwant Singh Project\23012018\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\Balwant Singh Project\23012018\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\Balwant Singh Project\23012018\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\NewProjectERP.dll.config
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\NewProjectERP.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\NewProjectERP.pdb
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\EntityFramework.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\MySql.Data.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Owin.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\System.Web.Optimization.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\System.Web.Providers.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\WebGrease.dll
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\System.Web.Optimization.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\EntityFramework.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\System.Web.Providers.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Balwant Singh Project\23012018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\NewProjectERP.dll.config
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\NewProjectERP.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\NewProjectERP.pdb
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\EntityFramework.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\MySql.Data.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Owin.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\System.Web.Optimization.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\System.Web.Providers.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\WebGrease.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\System.Web.Optimization.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\EntityFramework.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\System.Web.Providers.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Balwant Singh Project\24012018\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\Balwant Singh Project\24012018\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\Balwant Singh Project\24012018\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\Balwant Singh Project\24012018\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\Balwant Singh Project\24012018\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\Balwant Singh Project\24012018\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+D:\Mahatab Vai\24012018\NewProjectERP\bin\NewProjectERP.dll.config
+D:\Mahatab Vai\24012018\NewProjectERP\bin\NewProjectERP.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\NewProjectERP.pdb
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\EntityFramework.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\MySql.Data.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Owin.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\System.Web.Optimization.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\System.Web.Providers.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\WebGrease.dll
+D:\Mahatab Vai\24012018\NewProjectERP\bin\System.Web.Optimization.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\EntityFramework.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\System.Web.Providers.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Mahatab Vai\24012018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Mahatab Vai\24012018\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\Mahatab Vai\24012018\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\Mahatab Vai\24012018\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\Mahatab Vai\24012018\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\Mahatab Vai\24012018\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\Mahatab Vai\24012018\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+D:\25.01.18\24012018\NewProjectERP\bin\NewProjectERP.dll.config
+D:\25.01.18\24012018\NewProjectERP\bin\NewProjectERP.dll
+D:\25.01.18\24012018\NewProjectERP\bin\NewProjectERP.pdb
+D:\25.01.18\24012018\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\25.01.18\24012018\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\25.01.18\24012018\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\25.01.18\24012018\NewProjectERP\bin\EntityFramework.dll
+D:\25.01.18\24012018\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\25.01.18\24012018\NewProjectERP\bin\MySql.Data.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\25.01.18\24012018\NewProjectERP\bin\Owin.dll
+D:\25.01.18\24012018\NewProjectERP\bin\System.Web.Optimization.dll
+D:\25.01.18\24012018\NewProjectERP\bin\System.Web.Providers.dll
+D:\25.01.18\24012018\NewProjectERP\bin\WebGrease.dll
+D:\25.01.18\24012018\NewProjectERP\bin\System.Web.Optimization.xml
+D:\25.01.18\24012018\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\25.01.18\24012018\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\25.01.18\24012018\NewProjectERP\bin\EntityFramework.xml
+D:\25.01.18\24012018\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\25.01.18\24012018\NewProjectERP\bin\System.Web.Providers.xml
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.xml
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\25.01.18\24012018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\25.01.18\24012018\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+D:\25.01.18\24012018\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\25.01.18\24012018\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\25.01.18\24012018\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\25.01.18\24012018\NewProjectERP\obj\Debug\NewProjectERP.csproj.CoreCompileInputs.cache
+D:\25.01.18\24012018\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\25.01.18\24012018\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\NewProjectERP.dll.config
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\NewProjectERP.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\NewProjectERP.pdb
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\EntityFramework.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\MySql.Data.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Owin.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\System.Web.Optimization.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\System.Web.Providers.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\WebGrease.dll
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\System.Web.Optimization.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\EntityFramework.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\System.Web.Providers.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\Mahatab Vai\29.01.2018\24012018\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+D:\03-01-2018\NewProjectERP\bin\NewProjectERP.dll.config
+D:\03-01-2018\NewProjectERP\bin\NewProjectERP.dll
+D:\03-01-2018\NewProjectERP\bin\NewProjectERP.pdb
+D:\03-01-2018\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\03-01-2018\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\03-01-2018\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\03-01-2018\NewProjectERP\bin\EntityFramework.dll
+D:\03-01-2018\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\03-01-2018\NewProjectERP\bin\MySql.Data.dll
+D:\03-01-2018\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\03-01-2018\NewProjectERP\bin\Owin.dll
+D:\03-01-2018\NewProjectERP\bin\System.Web.Optimization.dll
+D:\03-01-2018\NewProjectERP\bin\System.Web.Providers.dll
+D:\03-01-2018\NewProjectERP\bin\WebGrease.dll
+D:\03-01-2018\NewProjectERP\bin\System.Web.Optimization.xml
+D:\03-01-2018\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\03-01-2018\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\03-01-2018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\03-01-2018\NewProjectERP\bin\EntityFramework.xml
+D:\03-01-2018\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\03-01-2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\03-01-2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\03-01-2018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\03-01-2018\NewProjectERP\bin\System.Web.Providers.xml
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.xml
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\03-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\03-01-2018\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+D:\03-01-2018\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\03-01-2018\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\03-01-2018\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\03-01-2018\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\03-01-2018\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\NewProjectERP.dll.config
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\NewProjectERP.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\NewProjectERP.pdb
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\EntityFramework.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\MySql.Data.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Owin.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\System.Web.Optimization.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\System.Web.Providers.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\WebGrease.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\System.Web.Optimization.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\EntityFramework.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\System.Web.Providers.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Mahatab Vai\04-01-2018\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\Mahatab Vai\04-01-2018\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\Mahatab Vai\04-01-2018\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\Mahatab Vai\04-01-2018\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\Mahatab Vai\04-01-2018\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\mysqlpro\NewProjectERP\bin\NewProjectERP.dll.config
+D:\mysqlpro\NewProjectERP\bin\NewProjectERP.dll
+D:\mysqlpro\NewProjectERP\bin\NewProjectERP.pdb
+D:\mysqlpro\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\mysqlpro\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\mysqlpro\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\mysqlpro\NewProjectERP\bin\EntityFramework.dll
+D:\mysqlpro\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\mysqlpro\NewProjectERP\bin\MySql.Data.dll
+D:\mysqlpro\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\mysqlpro\NewProjectERP\bin\Owin.dll
+D:\mysqlpro\NewProjectERP\bin\System.Web.Optimization.dll
+D:\mysqlpro\NewProjectERP\bin\System.Web.Providers.dll
+D:\mysqlpro\NewProjectERP\bin\WebGrease.dll
+D:\mysqlpro\NewProjectERP\bin\System.Web.Optimization.xml
+D:\mysqlpro\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\mysqlpro\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\mysqlpro\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\mysqlpro\NewProjectERP\bin\EntityFramework.xml
+D:\mysqlpro\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\mysqlpro\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\mysqlpro\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\mysqlpro\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\mysqlpro\NewProjectERP\bin\System.Web.Providers.xml
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.xml
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\mysqlpro\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\mysqlpro\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+D:\mysqlpro\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\mysqlpro\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\mysqlpro\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\mysqlpro\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\mysqlpro\NewProjectERP\obj\Debug\NewProjectERP.pdb
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\NewProjectERP.dll.config
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\NewProjectERP.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\NewProjectERP.pdb
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Antlr3.Runtime.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\EntityFramework.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\EntityFramework.SqlServer.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\MySql.Data.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Newtonsoft.Json.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Owin.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\System.Web.Optimization.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\System.Web.Providers.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\WebGrease.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\System.Web.Optimization.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Antlr3.Runtime.pdb
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Newtonsoft.Json.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\EntityFramework.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\EntityFramework.SqlServer.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\System.Web.Providers.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.dll
+C:\Users\Biddut\Desktop\New folder\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\NewProjectERP.dll.config
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\NewProjectERP.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\NewProjectERP.pdb
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\EntityFramework.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\MySql.Data.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Owin.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\System.Web.Optimization.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\System.Web.Providers.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\WebGrease.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\System.Web.Optimization.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\EntityFramework.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\System.Web.Providers.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.pdb
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\NewProjectERP.dll.config
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\NewProjectERP.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\NewProjectERP.pdb
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Antlr3.Runtime.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\AspNet.ScriptManager.bootstrap.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\AspNet.ScriptManager.jQuery.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\EntityFramework.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\EntityFramework.SqlServer.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.Google.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.ScriptManager.WebForms.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Web.Infrastructure.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\MySql.Data.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Newtonsoft.Json.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Owin.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\System.Web.Optimization.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\System.Web.Providers.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\WebGrease.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\System.Web.Optimization.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Antlr3.Runtime.pdb
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Newtonsoft.Json.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\EntityFramework.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\EntityFramework.SqlServer.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\System.Web.Providers.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.Google.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\obj\Debug\NewProjectERP.dll
+D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\obj\Debug\NewProjectERP.pdb

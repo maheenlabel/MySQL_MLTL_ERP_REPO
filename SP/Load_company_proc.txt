@@ -1,0 +1,5 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_company_proc`()
+BEGIN
+select CompanyID,CompanyName
+ from Com_Company_tbl;
+END

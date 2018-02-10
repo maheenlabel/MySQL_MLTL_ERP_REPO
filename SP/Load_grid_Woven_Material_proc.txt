@@ -1,0 +1,26 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_grid_Woven_Material_proc`()
+BEGIN
+Select
+Woven_Material_ID,
+a.SampleID,
+b.SampleName,
+a.StoreItemID,
+c.ItemCode,
+MaheenCode,
+Quanity,
+a.Unit,
+d.ListItem,
+Color_Name,
+Denier,
+Pick_Yarnwise,
+a.SuppilerID,
+e.SupplierName,
+Batch_ID
+ from npd_woven_material_tbl a
+join npd_samplegeneralspec_tbl b on a.SampleID=b.SampleID
+join  inv_itemmaster_tbl c on c.ItemID=a.StoreItemID
+join config_lov_tbl d on d.ID=a.Unit
+join inv_supplier_tbl e on e.SupplierID=a.SuppilerID
+where a.StatusID<>255;
+
+END

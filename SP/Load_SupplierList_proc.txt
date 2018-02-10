@@ -1,0 +1,4 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Load_SupplierList_proc`()
+BEGIN
+Select SupplierID, SupplierName from INV_Supplier_Tbl where Deleted<>255;
+END

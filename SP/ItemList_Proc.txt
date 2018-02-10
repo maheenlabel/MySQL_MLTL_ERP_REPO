@@ -1,0 +1,6 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `ItemList_Proc`()
+BEGIN
+SELECT 0 AS ItemID,'Please Select' AS ItemCode
+UNION ALL
+SELECT ItemID,ItemCode FROM INV_ItemMaster_Tbl WHERE Deleted<>255 ORDER BY ItemCode;
+END

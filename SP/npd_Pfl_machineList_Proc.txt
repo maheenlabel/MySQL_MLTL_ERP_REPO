@@ -1,0 +1,4 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `npd_Pfl_machineList_Proc`()
+BEGIN
+SELECT MachineID, MachineNo FROM plan_machinemaster_tbl where StatusID<>255 AND ProductionCategoryID=2;
+END

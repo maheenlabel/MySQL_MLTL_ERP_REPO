@@ -1,0 +1,5 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `SubBrand_in_DownBox_proc`()
+BEGIN
+select ProgramID,ProgramName
+ from NPD_Program_Tbl ;
+END

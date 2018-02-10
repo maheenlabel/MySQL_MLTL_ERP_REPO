@@ -1,0 +1,4 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `LangguageList_proc`()
+BEGIN
+ select Language_ID,LanguageName from config_language_tbl;
+END
