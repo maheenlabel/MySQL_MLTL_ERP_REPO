@@ -131,6 +131,88 @@ namespace NewProjectERP.INVENTORY
                  string getTranNo = cm.ReturnTranTypeWise("com_userinfo_tbl", "UserID", "Requisition");
 
 
+                 int Userids = 0;
+                 int Result = 0;
+
+                 int i = 0;
+                 foreach (GridViewRow row in gvPD_DashBoard.Rows)
+                 {
+                     if (row.RowType == DataControlRowType.DataRow)
+                     {
+                         bool isChecked = row.Cells[0].Controls.OfType<CheckBox>().FirstOrDefault().Checked;
+
+                         if (isChecked)
+                         {
+                             i++;
+                         }
+                     }
+                 }
+                 if (i > 0)
+                 {
+
+                     foreach (GridViewRow row in gvPD_DashBoard.Rows)
+                     {
+                         if (row.RowType == DataControlRowType.DataRow)
+                         {
+                             bool isChecked = row.Cells[0].Controls.OfType<CheckBox>().FirstOrDefault().Checked;
+                             //int ID = Int32.Parse((row.FindControl("lblID") as Label).Text);
+                             int SampleID = Int32.Parse((row.FindControl("lblSampleID") as Label).Text);
+                             // string SampleName = (row.FindControl("lblSampleName") as TextBox).Text;
+                             int ItemID = Int32.Parse((row.FindControl("lblItemID") as Label).Text);
+                             //  string ItemCode = (row.FindControl("lblItemCode") as Label).Text;
+                             decimal Qty = Decimal.Parse((row.FindControl("lblQty") as Label).Text);
+                             decimal SampleQty = Decimal.Parse((row.FindControl("lblSampleQty") as TextBox).Text);
+                             decimal Amount = Decimal.Parse((row.FindControl("lblAmount") as Label).Text);
+                             int Supplier = Int32.Parse((row.FindControl("ddlSupplier") as DropDownList).SelectedValue);
+
+
+                             Userids = Convert.ToInt32(HttpContext.Current.Session["UserID"]);
+                             if (isChecked)
+                             {
+                                 try
+                                 {
+                                     string constr = ConfigurationManager.ConnectionStrings["MaheenERPConnection2"].ConnectionString;
+                                     using (MySql.Data.MySqlClient.MySqlConnection conn = new MySql.Data.MySqlClient.MySqlConnection(constr))
+                                     {
+                                         MySql.Data.MySqlClient.MySqlCommand cmd = new MySql.Data.MySqlClient.MySqlCommand();
+                                         cmd.Connection = conn;
+                                         cmd.CommandText = "CALL InsertRequestion_masterDetails_pro(@_PurchaseRequitionNo,@_PurchaseRequitionDate,@_PreparedBy, @_Status, @_SupplierID, @_SampleID,@_ProductID,@_RequisitionQTY,@_Rate,@_Amount,@CommandID);";
+
+                                         cmd.Parameters.Add("@_PurchaseRequitionNo", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = getTranNo;
+                                         cmd.Parameters.Add("@_PurchaseRequitionDate", MySql.Data.MySqlClient.MySqlDbType.Datetime).Value = System.DateTime.Now.Date;
+                                         cmd.Parameters.Add("@_PreparedBy", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = 61;
+                                         cmd.Parameters.Add("@_Status", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = 0;
+                                         cmd.Parameters.Add("@_SupplierID", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = Supplier;
+                                         cmd.Parameters.Add("@_SampleID", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = SampleID;
+                                         cmd.Parameters.Add("@_ProductID", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = ItemID;
+                                         cmd.Parameters.Add("@_RequisitionQTY", MySql.Data.MySqlClient.MySqlDbType.Decimal).Value = Qty;
+                                         cmd.Parameters.Add("@_Rate", MySql.Data.MySqlClient.MySqlDbType.Decimal).Value = SampleQty;
+                                         cmd.Parameters.Add("@_Amount", MySql.Data.MySqlClient.MySqlDbType.Decimal).Value = Amount;
+                                         cmd.Parameters.Add("@CommandID", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = 1;
+                                         conn.Open();
+                                         cmd.ExecuteNonQuery();
+                                     }
+
+                                 }
+                                 catch (Exception ex)
+                                 {
+                                     lblMsg.Text = "Please Enter Correct Information";
+                                     lblMsg.ForeColor = System.Drawing.Color.Red;
+                                 }
+                             }
+                         }
+                     }
+                 }
+                 else
+                 {
+                     lblMsg.Text = "Please Select Order Number!";
+                     lblMsg.ForeColor = System.Drawing.Color.Red;
+                     return;
+
+                 }
+                 lblMsg.Text = "Requisition Date Updated Successfully!";
+                 lblMsg.ForeColor = System.Drawing.Color.Green;
+            //btnExit_Click(sender, e);
         }
 
         protected void btnSearchRequisition_Click(object sender, EventArgs e)
