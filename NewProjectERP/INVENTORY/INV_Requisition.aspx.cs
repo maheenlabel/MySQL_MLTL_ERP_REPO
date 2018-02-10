@@ -9,7 +9,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
+using NewProjectERP.DAC;
 namespace NewProjectERP.INVENTORY
 {
     public partial class INV_Requisition : System.Web.UI.Page
@@ -61,7 +61,27 @@ namespace NewProjectERP.INVENTORY
             }
 
         }
+        //public DataTable GetAutoGenNo(string trantype)
+        //{
+        //    string constr = ConfigurationManager.ConnectionStrings["MaheenERPConnection2"].ConnectionString;
+        //    using (MySqlConnection con = new MySqlConnection(constr))
+        //    {
+        //        using (MySqlCommand cmd = new MySqlCommand("generatetranno", con))
+        //        {
+        //            cmd.CommandType = CommandType.StoredProcedure;
+        //            cmd.Parameters.AddWithValue("@intrantype", trantype);
 
+        //            using (MySqlDataAdapter sda = new MySqlDataAdapter(cmd))
+        //            {
+        //                DataTable dt = new DataTable();
+        //                sda.Fill(dt);
+        //                return dt;
+
+        //            }
+        //        }
+        //    }
+
+        //}
         protected void gvPD_DashBoard_RowDataBound(object sender, GridViewRowEventArgs e)
         {
             if (e.Row.RowType == DataControlRowType.DataRow)
@@ -105,6 +125,11 @@ namespace NewProjectERP.INVENTORY
 
         protected void btnGenerateRequisition_Click(object sender, EventArgs e)
         {
+ 
+                 Config_CommonDB cm = new DAC.Config_CommonDB();
+             //string getTranNo=cm.ReturnTranTypeWise("inv_purchaserequitionmaster_tbl", "PurchaseRequitionID","Requisition");
+                 string getTranNo = cm.ReturnTranTypeWise("com_userinfo_tbl", "UserID", "Requisition");
+
 
         }
 
