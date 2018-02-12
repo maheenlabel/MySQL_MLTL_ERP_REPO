@@ -30,7 +30,11 @@ namespace NewProjectERP.INVENTORY
         //public SqlDataReader BindSupplier()
         //{
         //    Config_CommonDB cdb = new Config_CommonDB();
+<<<<<<< HEAD
         //    //return cdb.GetSupplier();
+=======
+        //    return cdb.GetSupplier();
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
         //}
 
         private void LoadRequisitionGrid(int sampleID)
@@ -95,8 +99,13 @@ namespace NewProjectERP.INVENTORY
                 ddlSupplier.DataBind();
 
                 DataRow row = ((DataRowView)e.Row.DataItem).Row;
+<<<<<<< HEAD
                 var lblSupplier = e.Row.FindControl("lblSupplierID") as Label;
                 ddlSupplier.SelectedValue = lblSupplier.Text;
+=======
+                //var lblSupplier = e.Row.FindControl("lblSupplier") as Label;
+                //ddlSupplier.SelectedValue = lblSupplier.Text;
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
             }
         }
 
@@ -123,6 +132,7 @@ namespace NewProjectERP.INVENTORY
             //TabName.Value = "Imaage_Sample";
         }
 
+<<<<<<< HEAD
         public DataTable Retrun_MaxID()
         {
             string constr = ConfigurationManager.ConnectionStrings["MaheenERPConnection2"].ConnectionString;
@@ -147,13 +157,25 @@ namespace NewProjectERP.INVENTORY
              //    Config_CommonDB cm = new DAC.Config_CommonDB();
              //string getTranNo=cm.ReturnTranTypeWise("inv_purchaserequitionmaster_tbl", "PurchaseRequitionID","Requisition");
                 // string getTranNo = cm.ReturnTranTypeWise("com_userinfo_tbl", "UserID", "Requisition");
+=======
+        protected void btnGenerateRequisition_Click(object sender, EventArgs e)
+        {
+ 
+                 Config_CommonDB cm = new DAC.Config_CommonDB();
+             //string getTranNo=cm.ReturnTranTypeWise("inv_purchaserequitionmaster_tbl", "PurchaseRequitionID","Requisition");
+                 string getTranNo = cm.ReturnTranTypeWise("com_userinfo_tbl", "UserID", "Requisition");
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
 
 
                  int Userids = 0;
                  int Result = 0;
+<<<<<<< HEAD
                  int cSupID = 0;
                  int pSupID = 0;
                  int SampleID = 0;
+=======
+
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
                  int i = 0;
                  foreach (GridViewRow row in gvPD_DashBoard.Rows)
                  {
@@ -176,7 +198,11 @@ namespace NewProjectERP.INVENTORY
                          {
                              bool isChecked = row.Cells[0].Controls.OfType<CheckBox>().FirstOrDefault().Checked;
                              //int ID = Int32.Parse((row.FindControl("lblID") as Label).Text);
+<<<<<<< HEAD
                              SampleID = Int32.Parse((row.FindControl("lblSampleID") as Label).Text);
+=======
+                             int SampleID = Int32.Parse((row.FindControl("lblSampleID") as Label).Text);
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
                              // string SampleName = (row.FindControl("lblSampleName") as TextBox).Text;
                              int ItemID = Int32.Parse((row.FindControl("lblItemID") as Label).Text);
                              //  string ItemCode = (row.FindControl("lblItemCode") as Label).Text;
@@ -184,6 +210,7 @@ namespace NewProjectERP.INVENTORY
                              decimal SampleQty = Decimal.Parse((row.FindControl("lblSampleQty") as TextBox).Text);
                              decimal Amount = Decimal.Parse((row.FindControl("lblAmount") as Label).Text);
                              int Supplier = Int32.Parse((row.FindControl("ddlSupplier") as DropDownList).SelectedValue);
+<<<<<<< HEAD
                              Userids = Convert.ToInt32(HttpContext.Current.Session["UserID"]);
                              int Material_ID = Int32.Parse((row.FindControl("lblWoven_Material_ID") as Label).Text);
 
@@ -351,6 +378,44 @@ namespace NewProjectERP.INVENTORY
                              //        lblMsg.ForeColor = System.Drawing.Color.Red;
                              //    }
                              //}
+=======
+
+
+                             Userids = Convert.ToInt32(HttpContext.Current.Session["UserID"]);
+                             if (isChecked)
+                             {
+                                 try
+                                 {
+                                     string constr = ConfigurationManager.ConnectionStrings["MaheenERPConnection2"].ConnectionString;
+                                     using (MySql.Data.MySqlClient.MySqlConnection conn = new MySql.Data.MySqlClient.MySqlConnection(constr))
+                                     {
+                                         MySql.Data.MySqlClient.MySqlCommand cmd = new MySql.Data.MySqlClient.MySqlCommand();
+                                         cmd.Connection = conn;
+                                         cmd.CommandText = "CALL InsertRequestion_masterDetails_pro(@_PurchaseRequitionNo,@_PurchaseRequitionDate,@_PreparedBy, @_Status, @_SupplierID, @_SampleID,@_ProductID,@_RequisitionQTY,@_Rate,@_Amount,@CommandID);";
+
+                                         cmd.Parameters.Add("@_PurchaseRequitionNo", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = getTranNo;
+                                         cmd.Parameters.Add("@_PurchaseRequitionDate", MySql.Data.MySqlClient.MySqlDbType.Datetime).Value = System.DateTime.Now.Date;
+                                         cmd.Parameters.Add("@_PreparedBy", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = 61;
+                                         cmd.Parameters.Add("@_Status", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = 0;
+                                         cmd.Parameters.Add("@_SupplierID", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = Supplier;
+                                         cmd.Parameters.Add("@_SampleID", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = SampleID;
+                                         cmd.Parameters.Add("@_ProductID", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = ItemID;
+                                         cmd.Parameters.Add("@_RequisitionQTY", MySql.Data.MySqlClient.MySqlDbType.Decimal).Value = Qty;
+                                         cmd.Parameters.Add("@_Rate", MySql.Data.MySqlClient.MySqlDbType.Decimal).Value = SampleQty;
+                                         cmd.Parameters.Add("@_Amount", MySql.Data.MySqlClient.MySqlDbType.Decimal).Value = Amount;
+                                         cmd.Parameters.Add("@CommandID", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = 1;
+                                         conn.Open();
+                                         cmd.ExecuteNonQuery();
+                                     }
+
+                                 }
+                                 catch (Exception ex)
+                                 {
+                                     lblMsg.Text = "Please Enter Correct Information";
+                                     lblMsg.ForeColor = System.Drawing.Color.Red;
+                                 }
+                             }
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
                          }
                      }
                  }
@@ -363,7 +428,10 @@ namespace NewProjectERP.INVENTORY
                  }
                  lblMsg.Text = "Requisition Date Updated Successfully!";
                  lblMsg.ForeColor = System.Drawing.Color.Green;
+<<<<<<< HEAD
                  Response.Redirect("../INVENTORY/INV_RequisitionGenerate.aspx?SampleID=" + SampleID);
+=======
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
             //btnExit_Click(sender, e);
         }
 

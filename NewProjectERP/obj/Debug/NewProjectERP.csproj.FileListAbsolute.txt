@@ -1229,6 +1229,7 @@ D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProje
 D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
 D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.dll
 D:\MLT.ERP.REPOS_10_02_2018\MySQL_MLTL_ERP_REPO\NewProjectERP\obj\Debug\NewProjectERP.pdb
+<<<<<<< HEAD
 D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\NewProjectERP.dll.config
 D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\NewProjectERP.dll
 D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\NewProjectERP.pdb
@@ -1284,3 +1285,5 @@ D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\obj\Debug\NewProjectE
 D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses
 D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\obj\Debug\NewProjectERP.dll
 D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\obj\Debug\NewProjectERP.pdb
+=======
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10

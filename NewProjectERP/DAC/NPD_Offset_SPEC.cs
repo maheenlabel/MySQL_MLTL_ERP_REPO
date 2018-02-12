@@ -94,7 +94,11 @@ namespace NewProjectERP.DAC
                  
                  cmd.Parameters.Add("@KeyEntry10", MySql.Data.MySqlClient.MySqlDbType.String).Value = KeyEntry10;
                    cmd.Parameters.Add("@CreatedBy", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = CreatedBy;
+<<<<<<< HEAD
                    cmd.Parameters.Add("@CreationDate", MySql.Data.MySqlClient.MySqlDbType.DateTime).Value = CreationDate;
+=======
+                 cmd.Parameters.Add("@CreationDate", MySql.Data.MySqlClient.MySqlDbType.Datetime).Value = CreationDate;
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
                  cmd.Parameters.Add("@Status", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = status;         
 
                 

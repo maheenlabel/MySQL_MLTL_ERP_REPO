@@ -1,5 +1,6 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="INV_Requisition.aspx.cs" Inherits="NewProjectERP.INVENTORY.INV_Requisition" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+<<<<<<< HEAD
            <script type="text/javascript">      
 
         $(document).ready(function () {            
@@ -15,6 +16,9 @@
      </script>
     
      <div class="row">
+=======
+    <div class="row">
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
         <div class="col-md-12">
             <section class="panel">
                 <header class="panel-heading">
@@ -97,19 +101,28 @@
                              
 
 
+<<<<<<< HEAD
                                  <asp:TemplateField HeaderText="Supplier" HeaderStyle-BackColor="#d9edf7">
                                             <ItemTemplate>
                                                  <asp:Label ID="lblSupplierID"  runat="server" Text='<%# Eval("SuppilerID") %>' Visible="false"  />
                                                <asp:DropDownList ID="ddlSupplier" runat="server" Width="150px" CssClass="form-control"   DataTextField="SupplierName" DataValueField="SupplierID"></asp:DropDownList> <%-- DataSource="<%#BindSupplier()%>"--%>
+=======
+                                 <asp:TemplateField HeaderText="Status" HeaderStyle-BackColor="#d9edf7">
+                                            <ItemTemplate>
+                                               <asp:DropDownList ID="ddlSupplier" runat="server" Width="150px" CssClass="form-control"  DataTextField="SupplierName" DataValueField="SupplierID"></asp:DropDownList> <%-- DataSource="<%#BindSupplier()%>"--%>
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
                                            
                                                
                                             </ItemTemplate>
                                         </asp:TemplateField>
+<<<<<<< HEAD
                                       <asp:TemplateField HeaderText="Woven_Material_ID" HeaderStyle-BackColor="#d9edf7">
                                 <ItemTemplate>
                                     <asp:Label ID="lblWoven_Material_ID" runat="server" Text='<%# Bind("Woven_Material_ID") %>'></asp:Label>
                                 </ItemTemplate>
                             </asp:TemplateField>
+=======
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
 
 
                         </Columns>

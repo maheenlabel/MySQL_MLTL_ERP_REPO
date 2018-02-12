@@ -40,10 +40,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+=======
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="MySql.Data, Version=6.10.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -265,10 +268,16 @@
     <Content Include="categoryList.aspx" />
     <Content Include="GatewayofNewExistSampaleApproval.aspx" />
     <Content Include="GatewayofNewExist.aspx" />
+<<<<<<< HEAD
     <Content Include="INVENTORY\INV_RequisitionGenerate.aspx" />
     <Content Include="INVENTORY\INV_Requisition.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="MailRoom\MailFrom.aspx" />
+=======
+    <Content Include="INVENTORY\INV_Requisition.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="MailRoom.aspx" />
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
     <Content Include="MySqlDataGrid.aspx" />
     <Content Include="NPD\AutoSearchCompleted.aspx" />
     <Content Include="NPD\Npd_Offset_Materials.aspx" />
@@ -373,11 +382,15 @@
     <Content Include="Content\glyphicons_halflings\less\reset.less" />
     <Content Include="Content\glyphicons_halflings\less\site.less" />
     <Content Include="Content\glyphicons_halflings\less\style.less" />
+<<<<<<< HEAD
     <Content Include="ReportViewer.aspx" />
+=======
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
     <Content Include="Signin.aspx" />
     <Content Include="TestPageNewton.aspx" />
     <Content Include="WovenSpectedDataSheet.aspx" />
     <Content Include="Content\jquery-ui-1.12.1\package.json" />
+<<<<<<< HEAD
     <Content Include="DS\DS_SupplierWiseItem.xsc">
       <DependentUpon>DS_SupplierWiseItem.xsd</DependentUpon>
     </Content>
@@ -389,6 +402,8 @@
     <Content Include="DS\DS_SupplierWiseItem.xss">
       <DependentUpon>DS_SupplierWiseItem.xsd</DependentUpon>
     </Content>
+=======
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="PFLSpectedDataSheet.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -602,11 +617,14 @@
     <Compile Include="DAC\Config_CommonDB.cs" />
     <Compile Include="DAC\NPD_Offset_SPEC.cs" />
     <Compile Include="DAC\NPD_PFL_SPEC.cs" />
+<<<<<<< HEAD
     <Compile Include="DS\DS_SupplierWiseItem.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_SupplierWiseItem.xsd</DependentUpon>
     </Compile>
+=======
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -638,6 +656,7 @@
     <Compile Include="GatewayofNewExist.aspx.designer.cs">
       <DependentUpon>GatewayofNewExist.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="INVENTORY\INV_RequisitionGenerate.aspx.cs">
       <DependentUpon>INV_RequisitionGenerate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -645,6 +664,8 @@
     <Compile Include="INVENTORY\INV_RequisitionGenerate.aspx.designer.cs">
       <DependentUpon>INV_RequisitionGenerate.aspx</DependentUpon>
     </Compile>
+=======
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
     <Compile Include="INVENTORY\INV_Requisition.aspx.cs">
       <DependentUpon>INV_Requisition.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -659,12 +680,21 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="MailRoom\MailFrom.aspx.cs">
       <DependentUpon>MailFrom.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="MailRoom\MailFrom.aspx.designer.cs">
       <DependentUpon>MailFrom.aspx</DependentUpon>
+=======
+    <Compile Include="MailRoom.aspx.cs">
+      <DependentUpon>MailRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MailRoom.aspx.designer.cs">
+      <DependentUpon>MailRoom.aspx</DependentUpon>
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
     </Compile>
     <Compile Include="MySqlDataGrid.aspx.cs">
       <DependentUpon>MySqlDataGrid.aspx</DependentUpon>
@@ -770,6 +800,7 @@
       <DependentUpon>PFLSpectedDataSheet.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="ReportViewer.aspx.cs">
       <DependentUpon>ReportViewer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -783,6 +814,8 @@
       <DependentUpon>SupplierWiseItem_rtp.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+=======
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
     <Compile Include="Signin.aspx.cs">
       <DependentUpon>Signin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -845,17 +878,23 @@
     </Content>
     <EmbeddedResource Include="MySqlDataGrid.aspx.resx" />
     <EmbeddedResource Include="Properties\licenses.licx" />
+<<<<<<< HEAD
     <EmbeddedResource Include="Report\SupplierWiseItem_rtp.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>SupplierWiseItem_rtp.cs</LastGenOutput>
     </EmbeddedResource>
+=======
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
+=======
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

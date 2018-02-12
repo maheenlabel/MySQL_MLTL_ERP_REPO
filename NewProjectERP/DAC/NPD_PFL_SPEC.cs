@@ -389,6 +389,7 @@ namespace NewProjectERP.DAC
              }
          }
 
+<<<<<<< HEAD
          public void MasterRequestionGenerateStatusUpdate(int _PurchaseRequitionID, int _SupplierID, int _SampleID)
          {
 
@@ -433,5 +434,7 @@ namespace NewProjectERP.DAC
          }
 
 
+=======
+>>>>>>> e13348d52d15e4a0a11d272188477b8c7aab4b10
     }
 }
