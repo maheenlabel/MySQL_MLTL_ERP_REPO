@@ -37,15 +37,15 @@ namespace NewProjectERP.INVENTORY
         {
            DataTable dt= DashBroadCommom_GridLoad(sampleID);
 
-            gvPD_DashBoard.DataSource = dt;
-            gvPD_DashBoard.DataBind();
+           gvPD_DashBoard.DataSource = dt;
+           gvPD_DashBoard.DataBind();
         }
         public DataTable DashBroadCommom_GridLoad(int _SampleID)
         {
             string constr = ConfigurationManager.ConnectionStrings["MaheenERPConnection2"].ConnectionString;
             using (MySqlConnection con = new MySqlConnection(constr))
             {
-                using (MySqlCommand cmd = new MySqlCommand("Load_Requisition_Gridview", con))
+                using (MySqlCommand cmd = new MySqlCommand("Supplier_wiseRequisitionGenerate_pro", con))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@_SampleID", _SampleID);
@@ -86,17 +86,17 @@ namespace NewProjectERP.INVENTORY
         {
             if (e.Row.RowType == DataControlRowType.DataRow)
             {
-                Config_CommonDB cdb = new Config_CommonDB();
-                DataTable dtSupplier = cdb.GetdtBySp("Load_SupplierList_proc");
-                DropDownList ddlSupplier = (e.Row.FindControl("ddlSupplier") as DropDownList);
-                ddlSupplier.DataSource = dtSupplier;
-                ddlSupplier.DataTextField = "SupplierName";
-                ddlSupplier.DataValueField = "SupplierID";
-                ddlSupplier.DataBind();
+                //Config_CommonDB cdb = new Config_CommonDB();
+                //DataTable dtSupplier = cdb.GetdtBySp("Load_SupplierList_proc");
+                //DropDownList ddlSupplier = (e.Row.FindControl("ddlSupplier") as DropDownList);
+                //ddlSupplier.DataSource = dtSupplier;
+                //ddlSupplier.DataTextField = "SupplierName";
+                //ddlSupplier.DataValueField = "SupplierID";
+                //ddlSupplier.DataBind();
 
-                DataRow row = ((DataRowView)e.Row.DataItem).Row;
-                //var lblSupplier = e.Row.FindControl("lblSupplier") as Label;
-                //ddlSupplier.SelectedValue = lblSupplier.Text;
+                //DataRow row = ((DataRowView)e.Row.DataItem).Row;
+                ////var lblSupplier = e.Row.FindControl("lblSupplier") as Label;
+                ////ddlSupplier.SelectedValue = lblSupplier.Text;
             }
         }
 
@@ -374,6 +374,83 @@ namespace NewProjectERP.INVENTORY
 
         protected void btnSearchRequisition_Click1(object sender, EventArgs e)
         {
+
+        }
+
+        protected void lblMaterials_Click(object sender, EventArgs e)
+        {
+
+            GridViewRow gvRow = (GridViewRow)(sender as Control).Parent.Parent;
+            //  Label JobCardID = (Label)gvRow.FindControl("lblJobCardID");
+            //Label ID = (Label)gvRow.FindControl("lblID");
+            Label PurchaseRequitionID = (Label)gvRow.FindControl("lblPurchaseRequitionID");
+            DataTable dt = LoadPurchaseRequitionID_wise(Int32.Parse(PurchaseRequitionID.Text));
+            gvPurchaseRequitionID_DashBoard.DataSource = dt;
+            gvPurchaseRequitionID_DashBoard.DataBind();
+
+        }
+
+        public DataTable LoadPurchaseRequitionID_wise(int PurchaseRequitionID)
+        {
+            string constr = ConfigurationManager.ConnectionStrings["MaheenERPConnection2"].ConnectionString;
+            using (MySqlConnection con = new MySqlConnection(constr))
+            {
+                using (MySqlCommand cmd = new MySqlCommand("Supplier_WiseItem_pro", con))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@_PurchaseRequitionID", PurchaseRequitionID);
+
+                    using (MySqlDataAdapter sda = new MySqlDataAdapter(cmd))
+                    {
+                        DataTable dt = new DataTable();
+                        sda.Fill(dt);
+                        return dt;
+
+                    }
+                }
+            }
+
+        }
+
+        protected void lblPreview_Click(object sender, EventArgs e)
+        {
+            GridViewRow gvRow = (GridViewRow)(sender as Control).Parent.Parent;
+          
+            Label PurchaseRequitionID = (Label)gvRow.FindControl("lblPurchaseRequitionID");
+            DataTable dt = LoadPurchaseRequitionID_wise(Int32.Parse(PurchaseRequitionID.Text));
+
+            var script = String.Format("window.open('{0}','_blank');", ResolveUrl("/ReportViewer.aspx?Report=PurchaseRequition&PurchaseRequitionID=" + PurchaseRequitionID.Text));
+            Page.ClientScript.RegisterStartupScript(this.GetType(), "myScript", script, true);
+
+        }
+
+        protected void lblDelete_Click(object sender, EventArgs e)
+        {
+            GridViewRow gvRow = (GridViewRow)(sender as Control).Parent.Parent;
+            Label PurchaseRequitionID = (Label)gvRow.FindControl("lblPurchaseRequitionID");
+            Label SupplierID = (Label)gvRow.FindControl("lblSupplierID");
+            Label SampleID = (Label)gvRow.FindControl("lblSampleID");
+            NPD_PFL_SPEC woven = new NPD_PFL_SPEC();
+
+             woven.MasterRequestionGenerateStatusUpdate(Int32.Parse(PurchaseRequitionID.Text), Int32.Parse(SupplierID.Text), Int32.Parse(SampleID.Text));
+             LoadRequisitionGrid(Int32.Parse(SampleID.Text));
+            //gvPurchaseRequitionID_DashBoard.DataSource = dt;
+            //gvPurchaseRequitionID_DashBoard.DataBind();
+
+        }
+
+        protected void lblDeletedetails_Click(object sender, EventArgs e)
+        {
+            GridViewRow gvRow = (GridViewRow)(sender as Control).Parent.Parent;
+            Label PurchaseRequisitionDetailsID = (Label)gvRow.FindControl("lblPurchaseRequisitionDetailsID1");
+            Label SupplierID = (Label)gvRow.FindControl("lblSupplierID1");
+            Label SampleID = (Label)gvRow.FindControl("lblSampleID");
+            Label ProductID = (Label)gvRow.FindControl("lblProductID1");
+            NPD_PFL_SPEC woven = new NPD_PFL_SPEC();
+
+            woven.DetailsRequestionGenerateStatusUpdate(Int32.Parse(PurchaseRequisitionDetailsID.Text), Int32.Parse(SupplierID.Text), Int32.Parse(SampleID.Text), Int32.Parse(ProductID.Text));
+            gvPurchaseRequitionID_DashBoard.DataSource = null;
+            gvPurchaseRequitionID_DashBoard.DataBind();
 
         }
     }

@@ -389,5 +389,49 @@ namespace NewProjectERP.DAC
              }
          }
 
+         public void MasterRequestionGenerateStatusUpdate(int _PurchaseRequitionID, int _SupplierID, int _SampleID)
+         {
+
+
+             string constr = ConfigurationManager.ConnectionStrings["MaheenERPConnection2"].ConnectionString;
+             using (MySql.Data.MySqlClient.MySqlConnection conn = new MySql.Data.MySqlClient.MySqlConnection(constr))
+             {
+                 MySql.Data.MySqlClient.MySqlCommand cmd = new MySql.Data.MySqlClient.MySqlCommand();
+                 cmd.Connection = conn;
+                 cmd.CommandText = "CALL MasterRequestionGenerateStatusUpdate_proc(@_PurchaseRequitionID ,@_SupplierID ,@_SampleID);";
+
+                 cmd.Parameters.Add("@_PurchaseRequitionID", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = _PurchaseRequitionID;
+                 cmd.Parameters.Add("@_SupplierID", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = _SupplierID;
+                 cmd.Parameters.Add("@_SampleID", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = _SampleID;
+
+                 conn.Open();
+                 cmd.ExecuteNonQuery();
+             }
+            
+         }
+
+         public void DetailsRequestionGenerateStatusUpdate(int _PurchaseRequisitionDetailsID, int _SupplierID, int _SampleID, int _Item)
+         {
+
+
+             string constr = ConfigurationManager.ConnectionStrings["MaheenERPConnection2"].ConnectionString;
+             using (MySql.Data.MySqlClient.MySqlConnection conn = new MySql.Data.MySqlClient.MySqlConnection(constr))
+             {
+                 MySql.Data.MySqlClient.MySqlCommand cmd = new MySql.Data.MySqlClient.MySqlCommand();
+                 cmd.Connection = conn;
+                 cmd.CommandText = "CALL DetailsRequestionGenerateStatusUpdate_proc(@_PurchaseRequisitionDetailsID ,@_SupplierID ,@_SampleID,@_Item);";
+
+                 cmd.Parameters.Add("@_PurchaseRequisitionDetailsID", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = _PurchaseRequisitionDetailsID;
+                 cmd.Parameters.Add("@_SupplierID", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = _SupplierID;
+                 cmd.Parameters.Add("@_SampleID", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = _SampleID;
+                 cmd.Parameters.Add("@_Item", MySql.Data.MySqlClient.MySqlDbType.Int32).Value = _Item;
+
+                 conn.Open();
+                 cmd.ExecuteNonQuery();
+             }
+
+         }
+
+
     }
 }

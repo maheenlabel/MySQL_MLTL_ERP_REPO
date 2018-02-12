@@ -1,0 +1,7 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `DetailsRequestionGenerateStatusUpdate_proc`(in _PurchaseRequisitionDetailsID int ,in _SupplierID int, in _SampleID int,in _Item int)
+BEGIN
+UPDATE `inv_purchaserequitiondetails_tbl`
+SET
+Status= 255 WHERE PurchaseRequisitionDetailsID = _PurchaseRequisitionDetailsID;
+update  npd_woven_material_tbl set StatusID=0 where SuppilerID=_SupplierID and SampleID= _SampleID and StoreItemID= _Item;
+END

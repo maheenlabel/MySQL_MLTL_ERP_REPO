@@ -40,6 +40,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="MySql.Data, Version=6.10.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -264,7 +268,7 @@
     <Content Include="INVENTORY\INV_RequisitionGenerate.aspx" />
     <Content Include="INVENTORY\INV_Requisition.aspx" />
     <Content Include="Login.aspx" />
-    <Content Include="MailRoom.aspx" />
+    <Content Include="MailRoom\MailFrom.aspx" />
     <Content Include="MySqlDataGrid.aspx" />
     <Content Include="NPD\AutoSearchCompleted.aspx" />
     <Content Include="NPD\Npd_Offset_Materials.aspx" />
@@ -369,10 +373,22 @@
     <Content Include="Content\glyphicons_halflings\less\reset.less" />
     <Content Include="Content\glyphicons_halflings\less\site.less" />
     <Content Include="Content\glyphicons_halflings\less\style.less" />
+    <Content Include="ReportViewer.aspx" />
     <Content Include="Signin.aspx" />
     <Content Include="TestPageNewton.aspx" />
     <Content Include="WovenSpectedDataSheet.aspx" />
     <Content Include="Content\jquery-ui-1.12.1\package.json" />
+    <Content Include="DS\DS_SupplierWiseItem.xsc">
+      <DependentUpon>DS_SupplierWiseItem.xsd</DependentUpon>
+    </Content>
+    <None Include="DS\DS_SupplierWiseItem.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_SupplierWiseItem.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DS\DS_SupplierWiseItem.xss">
+      <DependentUpon>DS_SupplierWiseItem.xsd</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="PFLSpectedDataSheet.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -586,6 +602,11 @@
     <Compile Include="DAC\Config_CommonDB.cs" />
     <Compile Include="DAC\NPD_Offset_SPEC.cs" />
     <Compile Include="DAC\NPD_PFL_SPEC.cs" />
+    <Compile Include="DS\DS_SupplierWiseItem.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_SupplierWiseItem.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -638,12 +659,12 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MailRoom.aspx.cs">
-      <DependentUpon>MailRoom.aspx</DependentUpon>
+    <Compile Include="MailRoom\MailFrom.aspx.cs">
+      <DependentUpon>MailFrom.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MailRoom.aspx.designer.cs">
-      <DependentUpon>MailRoom.aspx</DependentUpon>
+    <Compile Include="MailRoom\MailFrom.aspx.designer.cs">
+      <DependentUpon>MailFrom.aspx</DependentUpon>
     </Compile>
     <Compile Include="MySqlDataGrid.aspx.cs">
       <DependentUpon>MySqlDataGrid.aspx</DependentUpon>
@@ -749,6 +770,19 @@
       <DependentUpon>PFLSpectedDataSheet.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportViewer.aspx.cs">
+      <DependentUpon>ReportViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportViewer.aspx.designer.cs">
+      <DependentUpon>ReportViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\SupplierWiseItem_rtp.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupplierWiseItem_rtp.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Signin.aspx.cs">
       <DependentUpon>Signin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -811,9 +845,16 @@
     </Content>
     <EmbeddedResource Include="MySqlDataGrid.aspx.resx" />
     <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Report\SupplierWiseItem_rtp.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SupplierWiseItem_rtp.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

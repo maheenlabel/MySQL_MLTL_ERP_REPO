@@ -1,0 +1,22 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Supplier_WiseItem_pro`(in _PurchaseRequitionID int)
+BEGIN
+SELECT a.PurchaseRequitionID,
+ PurchaseRequitionNo,
+PurchaseRequitionDate,
+b.SupplierID,
+a.SampleID,
+PurchaseRequisitionDetailsID,
+ProductID,
+c.ItemCode,
+RequisitionQTY,
+Rate,
+Amount,
+d.SupplierName
+
+
+ FROM inv_purchaserequitionmaster_tbl a
+join  inv_purchaserequitiondetails_tbl b on a.PurchaseRequitionID=b.PurchaseRequitionID
+join inv_itemmaster_tbl c on c.ItemID=b.ProductID
+join inv_supplier_tbl d on d.SupplierID=b.SupplierID
+where a.PurchaseRequitionID=_PurchaseRequitionID and b.Status<>255;
+END

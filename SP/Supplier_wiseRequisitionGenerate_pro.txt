@@ -1,0 +1,12 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Supplier_wiseRequisitionGenerate_pro`(in _SampleID int )
+BEGIN
+select PurchaseRequitionID,
+PurchaseRequitionNo,
+PurchaseRequitionDate,
+a.SupplierID,
+b.SupplierName,
+SampleID
+ from inv_purchaserequitionmaster_tbl a
+ join inv_supplier_tbl b on a.SupplierID=b.SupplierID
+ where SampleID= _SampleID and a.Status<>255;
+END

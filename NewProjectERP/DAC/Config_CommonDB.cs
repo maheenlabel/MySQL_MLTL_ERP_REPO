@@ -100,8 +100,8 @@ namespace NewProjectERP.DAC
             }
             return gnstr;
         }
-        /*
-                public SqlDataReader GetSupplier()
+
+        public MySqlDataReader GetSupplier()
                 {
 
                     string constr = ConfigurationManager.ConnectionStrings["MaheenERPConnection2"].ConnectionString;
@@ -109,44 +109,49 @@ namespace NewProjectERP.DAC
                     {
                         using (MySqlCommand cmd = new MySqlCommand("Load_SupplierList_proc", con))
                         {
-                            cmd.CommandType = CommandType.StoredProcedure;
-                            cmd.Parameters.AddWithValue("@sample", SampleID);
-                            using (MySqlDataAdapter sda = new MySqlDataAdapter(cmd))
-                            {
-                                DataTable dt = new DataTable();
-                                sda.Fill(dt);
-                                return dt;
+                            cmd.CommandType = CommandType.StoredProcedure;                           
+                            MySqlDataReader rdr = cmd.ExecuteReader();
+                            return rdr;
+                            ////cmd.Parameters.AddWithValue("@sample", SampleID);
+                            //using (MySqlDataAdapter sda = new MySqlDataAdapter(cmd))
+                            //{
+                            //    DataTable dt = new DataTable();
+                            //    sda.Fill(dt);
+                            //    return dt;
 
-                            }
+                            //}
                         }
                     }
-                    /////////////////////////////
-                    //string constr = ConfigurationManager.ConnectionStrings["MaheenERPConnection2"].ConnectionString;
+                   
+                    /*
+                     ///////////////////////////
+                    string constr = ConfigurationManager.ConnectionStrings["MaheenERPConnection2"].ConnectionString;
             
-                    //using (MySqlConnection con = new MySqlConnection(constr))
-                    //{
-                    //    using (MySqlCommand cmd = new MySqlCommand("Load_SupplierList_proc"))
-                    //    {
-                    //        cmd.CommandType = CommandType.StoredProcedure;
-                    //        cmd.Connection = con;
-                    //        con.Open();
-                    //        SqlDataReader result = cmd.ExecuteReader(CommandBehavior.CloseConnection);
-                    //        return result;
-                    //        con.Close();
-                    //    }
-                    //}
+                    using (MySqlConnection con = new MySqlConnection(constr))
+                    {
+                        using (MySqlCommand cmd = new MySqlCommand("Load_SupplierList_proc"))
+                        {
+                            cmd.CommandType = CommandType.StoredProcedure;
+                            cmd.Connection = con;
+                            con.Open();
+                            SqlDataReader result = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                            return result;
+                            con.Close();
+                        }
+                    }
 
-                    //////////////////////////
+                    ////////////////////////
 
 
-                    //SqlConnection myConnection = new SqlConnection(AppVariables.ConStr);
-                    //SqlCommand myCommand = new SqlCommand("Inv_GetSupplierList_prc", myConnection);
-                    //myCommand.CommandType = CommandType.StoredProcedure;
+                    SqlConnection myConnection = new SqlConnection(AppVariables.ConStr);
+                    SqlCommand myCommand = new SqlCommand("Inv_GetSupplierList_prc", myConnection);
+                    myCommand.CommandType = CommandType.StoredProcedure;
 
-                    //myConnection.Open();
-                    //SqlDataReader result = myCommand.ExecuteReader(CommandBehavior.CloseConnection);
-                    //return result;
+                    myConnection.Open();
+                    SqlDataReader result = myCommand.ExecuteReader(CommandBehavior.CloseConnection);
+                    return result;
+                    */
                 }
-                */
+                
     }
 }

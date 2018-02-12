@@ -1,6 +1,20 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="INV_Requisition.aspx.cs" Inherits="NewProjectERP.INVENTORY.INV_Requisition" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="row">
+           <script type="text/javascript">      
+
+        $(document).ready(function () {            
+
+            $('#MainContent_gvPD_DashBoard_chkAll').click(function () {
+                if ($(this).prop('checked'))
+                    $(this).closest('table').find('input[id^="MainContent_gvPD_DashBoard_ctl00"]').prop('checked', true);
+                else
+                    $(this).closest('table').find('input[id^="MainContent_gvPD_DashBoard_ctl00"]').prop('checked', false);
+            });
+        });
+
+     </script>
+    
+     <div class="row">
         <div class="col-md-12">
             <section class="panel">
                 <header class="panel-heading">
@@ -85,7 +99,8 @@
 
                                  <asp:TemplateField HeaderText="Supplier" HeaderStyle-BackColor="#d9edf7">
                                             <ItemTemplate>
-                                               <asp:DropDownList ID="ddlSupplier" runat="server" Width="150px" CssClass="form-control"  DataTextField="SupplierName" DataValueField="SupplierID"></asp:DropDownList> <%-- DataSource="<%#BindSupplier()%>"--%>
+                                                 <asp:Label ID="lblSupplierID"  runat="server" Text='<%# Eval("SuppilerID") %>' Visible="false"  />
+                                               <asp:DropDownList ID="ddlSupplier" runat="server" Width="150px" CssClass="form-control"   DataTextField="SupplierName" DataValueField="SupplierID"></asp:DropDownList> <%-- DataSource="<%#BindSupplier()%>"--%>
                                            
                                                
                                             </ItemTemplate>

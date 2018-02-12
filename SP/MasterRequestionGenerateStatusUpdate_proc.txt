@@ -1,0 +1,10 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `MasterRequestionGenerateStatusUpdate_proc`( in _PurchaseRequitionID int,in _SupplierID int, in _SampleID int )
+BEGIN
+UPDATE `inv_purchaserequitionmaster_tbl`
+SET
+Status= 255
+WHERE PurchaseRequitionID = _PurchaseRequitionID;
+
+update  npd_woven_material_tbl set StatusID=0 where SuppilerID=_SupplierID and SampleID= _SampleID;
+
+END

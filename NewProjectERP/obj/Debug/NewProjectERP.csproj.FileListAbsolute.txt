@@ -1279,7 +1279,6 @@ D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Se
 D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.Twitter.xml
 D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\bin\Microsoft.Owin.Security.OAuth.xml
-D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\obj\Debug\NewProjectERP.csprojResolveAssemblyReference.cache
 D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\obj\Debug\NewProjectERP.MySqlDataGrid.aspx.resources
 D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\obj\Debug\NewProjectERP.csproj.GenerateResource.Cache
 D:\MLTL_ERP_REPOS\MySQL_MLTL_ERP_REPO-master\NewProjectERP\obj\Debug\NewProjectERP.dll.licenses

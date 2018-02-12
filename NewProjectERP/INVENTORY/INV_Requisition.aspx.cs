@@ -30,7 +30,7 @@ namespace NewProjectERP.INVENTORY
         //public SqlDataReader BindSupplier()
         //{
         //    Config_CommonDB cdb = new Config_CommonDB();
-        //    return cdb.GetSupplier();
+        //    //return cdb.GetSupplier();
         //}
 
         private void LoadRequisitionGrid(int sampleID)
@@ -95,8 +95,8 @@ namespace NewProjectERP.INVENTORY
                 ddlSupplier.DataBind();
 
                 DataRow row = ((DataRowView)e.Row.DataItem).Row;
-                //var lblSupplier = e.Row.FindControl("lblSupplier") as Label;
-                //ddlSupplier.SelectedValue = lblSupplier.Text;
+                var lblSupplier = e.Row.FindControl("lblSupplierID") as Label;
+                ddlSupplier.SelectedValue = lblSupplier.Text;
             }
         }
 
@@ -363,7 +363,7 @@ namespace NewProjectERP.INVENTORY
                  }
                  lblMsg.Text = "Requisition Date Updated Successfully!";
                  lblMsg.ForeColor = System.Drawing.Color.Green;
-                 Response.Redirect("INVENTORY/INV_RequisitionGenerate.aspx?SampleID=" + SampleID);
+                 Response.Redirect("../INVENTORY/INV_RequisitionGenerate.aspx?SampleID=" + SampleID);
             //btnExit_Click(sender, e);
         }
 
